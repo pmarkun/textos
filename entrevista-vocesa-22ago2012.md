@@ -3,7 +3,7 @@
 
 # Perguntas
 
-1. Por que decidiu criar o Transparência Hack Day? Fale um pouco sobre ele.
+**Por que decidiu criar o Transparência Hack Day? Fale um pouco sobre ele.**
 
 O Transparência Hackday é um evento que aconteceu pela primeira vez em Outubro de 2009 e foi uma reunião entre desenvolvedores, hackers, designers e pessoas que de alguma maneira dominavam as 'tecnologias' e o digital com jornalistas, ativistas, acadêmicos e cidadãos curiosos que tinham uma série de problemas complexos (da cidade) para resolver.
 
@@ -15,20 +15,20 @@ Seguindo o modelo dos Hackdays - eventos mão-na-massa onde os desenvolvedores p
 
 Enfim, a gente não decidiu nada. As coisas se decidiram por si só :)
 
-2. E a Casa de Cultura Digital? Você é um dos fundadores?
+**E a Casa de Cultura Digital? Você é um dos fundadores?**
 
 A Casa tem vários nascedouros, várias histórias e mitos de fundação - a gente esta inclusive compilando isso. Antes mesmo da Casa ser casa, ela já era uma vontade de várias pessoas e é o resultado de encontros entre vários indíviduos e coletivos aqui presentes.
 
+Eu contei uma dessas versões [aqui](http://okfnpad.org/ep/pad/view/ccd-markun/rev.0) é só dar play.
 
+**Por que decidiu entrar nessa área? Faz parte de seus ideias?**
 
-3. Por que decidiu entrar nessa área? Faz parte de seus ideias?
+**Consegue se ver fazendo outra coisa?**
 
-4. Consegue se ver fazendo outra coisa?
+**Aliás, o que te move?**
 
-5. Aliás, o que te move?
+**Considera-se um ativista?**
 
-6. Considera-se um ativista?
+**Acredita que, de certa forma, faz política? E por que não na política tradicional?**
 
-7. Acredita que, de certa forma, faz política? E por que não na política tradicional?
-
-8. Além do Transparência Hack Day e da Casa de Cultura Digital, tem outros projetos?
+**Além do Transparência Hack Day e da Casa de Cultura Digital, tem outros projetos?**
