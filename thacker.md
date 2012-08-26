@@ -6,11 +6,12 @@ Este livro conta algumas das histórias da Transparência Hacker - um coletivo d
 
 Da formação de uma comunidade - que hoje conta com mais de mil pessoas pelo Brasil inteiro, passando por clones, piratas e a escrita colaborativa de um projeto de lei - as histórias da Transparência Hacker servem como ponto de partida para reflexões sobre política, transparência e a sociedade na era do digital e sobre o nosso papel nesse momento de transformação.
 
-
+Esse é um livro utópico não sobre as coisas, mas sobre novas formas de fazer as coisas - sobre como colaboração, generosidade e abertura criam espaços de transformação que misturam as fronteiras do impossível com as do fantástico e ajudam a materializar sonhos do comum.
 
 ## Estrutura e Capítulos (im)possíveis
 
 * Clone do Blog do Planalto
+* O primeiro Transparência Hackday
 * Transparência Hacker
 * Eu, Hacker
 * Ônibus Hacker
@@ -26,3 +27,5 @@ Da formação de uma comunidade - que hoje conta com mais de mil pessoas pelo Br
 * O Transparência Hackday Porto (Portugal)
 * O Dr.House da Política
 * CiviSoc - O jogo da sociedade
+* Hackatão e o Estado de São Paulo
+* Hackathon e a Câmara Municipal de São Paulo
