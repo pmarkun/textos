@@ -224,7 +224,7 @@ Expressões regulares não estão exatamente na ementa desse curso - mas é algo
 O ``csvorder`` permite a gente reeordenar o csv. Podemos usar isso, por exemplo, para descobrir quais são as dez maiores despesas do PT:
 
 	$ csvcut -c 16,14,6,18 DespesasCandidatos-clean.csv | csvgrep -c 3 -r "PT" | csvsort -r | head -n 11
-Valor despesa,Nome do fornecedor,Sigla  Partido,Descriçao da despesa
+	Valor despesa,Nome do fornecedor,Sigla  Partido,Descriçao da despesa
 	1740000.0,ANDASOM COMÉRCIO DE APARELHOS ELETRONICOS LTDA.ME,PT,"LOCAÇÃO DE 100 KOMBI COM CONDUTOR, EQUIP.SONORIZAÇÃO E FORNECIMENTO DE COMBUSTIVEL DURANTE A CAMPANHA ELEITORAL"
 	1500000.0,POLIS PROPAGANDA & MARKETING LTDA,PT,"COORDENAÇÃO, CRIAÇÃO E PRODUÇÃO DE MATERIAIS PUBLICITÁRIOS DE PROGRAMAS PARA RÁDIOS E TELEVISÃO"
 	960000.0,"ANALITICA, AMARAL & ASSOCIADOS COMUNICAÇÃO LTDA.",PT,PRESTAÇÃO DE SERVIÇOS DE RELACIONAMENTO COM A MIDIA E ASSESSORIA DE IMPRENSA
