@@ -28,43 +28,63 @@ Isso vai criar uma série de arquivos na pasta 2012:
 
 Por enquanto vamos trabalhar apenas com as despesas dos candidatos - boa parte das operações de receita e despesa são viabilizadas através dos comites e dos partidos e fica bem mais difícil de rastrear.
 
-Para visualizar se o arquivo esta correto podemos usar o comando ``head`` para ler as primeiras duas linhas do arquivo ``DespesasCandidatos.csv``
+Para visualizar se o arquivo esta correto podemos usar o comando ``head`` para ler as primeiras linhas do arquivo ``DespesasCandidatos.csv``
 
 	$ cd 2012
-	$ head -n 2 DespesasCandidatos.csv
+	$ head -n 5 DespesasCandidatos.csv
 	"Data e hora";"Sequencial Candidato";"UF";"N�mero UE";"Munic�pio";"Sigla  Partido";"N�mero candidato";"Cargo";"Nome candidato";"CPF do candidato";"Tipo do documento";"N�mero do documento";"CPF/CNPJ do fornecedor";"Nome do fornecedor";"Data da despesa";"Valor despesa";"Tipo despesa";"Descri�ao da despesa"
 	"23/08/201215:28:44";"100000000122";"MA";"09210";"S�O LU�S";"PSTU";"16789";"Vereador";"LUIZ CARLOS NOLETO CHAVES";"23843616353";"Nota Fiscal";"001307";"06331045000125";"CORINGRA-COROAT� IND�STRIA GR�FICA LTDA";"27/07/2012";"300";"Publicidade por materiais impressos";"MATERIAIS GRAFICOS"
+"23/08/201215:28:44";"100000000199";"MA";"08419";"MORROS";"PV";"43";"Prefeito";"SIDRACK SANTOS FEITOSA";"45011990320";"Nota Fiscal";"1168";"07153251000155";"L O SIMOES BARBOSA - ME";"27/07/2012";"1650";"Combust�veis e lubrificantes";"IMPORTA O DEBITO EM 600 LTS DE DIESEL NO VALOR DE R$ 2,10/LITRO, E 150 LTS DE GASOLINA NO VALOR DE 2,60/LITRO"
+	"23/08/201215:28:44";"100000000210";"MA";"08419";"MORROS";"PRB";"10222";"Vereador";"MARIA DO ESPIRITO SANTO SILVA RODRIGUES";"49428730378";"Nota Fiscal";"0804";"10780247000121";"COMERCIO VAREJISTA DE COMBUSTIVEIS PARA VEICULOS AUTOMOTORES";"27/07/2012";"308,4";"Combust�veis e lubrificantes";"DESPESA COM COMBUSTIVEL"
+	"23/08/201215:28:44";"100000000210";"MA";"08419";"MORROS";"PRB";"10222";"Vereador";"MARIA DO ESPIRITO SANTO SILVA RODRIGUES";"49428730378";"Recibo";"SN";"84276606349";"SUED RICHARLLYS NASCIMENTO";"20/07/2012";"200";"Produ��o de jingles, vinhetas e slogans";"DESPESA COM PRUDU�AO DE JINGLES"
 
 Possívelmente (mas vai depender de algumas configurações do seu computador) o arquivo vai aparecer como acima. Com alguns caracteres estranhos no lugar dos acentos.
 
-## Corrigindo os acentos
+Um outro detalhe é que os valores de despesa usam virgula e não ponto para separar as casas decimais.
 
-Esse é um problema recorrente quando estamos trabalhando com tabelas e arquivos de fontes diversas. A maioria dos sistemas e programas que vamos utilizar no curso estão preparados para entender o padrão [utf-8](http://pt.wikipedia.org/wiki/UTF-8). Aqui no Brasil por muito tempo se utilizou o padrão [iso-8859-1](http://pt.wikipedia.org/wiki/ISO_8859-1) e vários sites e sistemas (como o do TSE) continuam utilizando esse formato.
+## Corrigindo o arquivo
+
+Esse é um problema recorrente quando estamos trabalhando com tabelas e arquivos de fontes diversas. A maioria dos sistemas e programas que vamos utilizar no curso estão preparados para entender o padrão [utf-8](http://pt.wikipedia.org/wiki/UTF-8). Aqui no Brasil por muito tempo utilizou o padrão [iso-8859-1](http://pt.wikipedia.org/wiki/ISO_8859-1) e vários sites e sistemas (como o do TSE) continuam utilizando esse formato.
+
+A convenção de usar a virgula como separador de decimal é também um problema recorrente e vale sempre dar uma investigada antes de mexer nos arquivos.
 
 Se alguém quiser entender melhor sobre encodings tem uma série de textos sobre o assunto na rede. Eu recomendo [esse aqui](http://kunststube.net/encoding/). Mas o processo de 'olhar o arquivo e ver se esta engraçado' funciona também.
 
-Para corrigir isso, podemos usar uma ferramenta do próprio csvkit. O ``in2csv`` é um conversor de arquivos para o formato csv. Com ele você consegue converter outros formatos (XLS, GeoJSON, tsv, etc) para o padrão CSV mas ele também faz um belo trabalho de padronizar o próprio CSV.
+Para corrigir o encoding, podemos usar uma ferramenta do próprio csvkit. Mas antes disso é melhor a gente substituir as virgulas por pontos no campo do valor. Para isso vamos utilizar o ``sed``. (Acaba sendo mais fácil corrigir isso no OpenOffice ou no Recline, mas eu não quis sair da linha de comando nessa aula.)
 
-	$ in2csv -e iso-8859-1 DespesasCandidatos.csv > DespesasCandidatos-utf8.csv
-	$ head -n 2 DespesasCandidatos-utf8.csv
+O sed é o 'steam editor', um editor de linha de comando que pode fazer um monte de coisas legais.
+
+	$ cat DespesasCandidatos.csv | sed s/\([0-9]\),\(0-9\)/\1.\2/ > DespesasCandidatos-tmp.csv
+
+Basicamente o que fizemos aqui foi usar o comando ``s`` do sed para substituir a expressão regular \([0-9])\),\([0-9]\) por \1.\2 e colar o resultado no arquivo DespesasCandidatos-tmp.csv
+
+Esse é um jeito meio gambiarra de fazer isso. Mas deu pro gasto. Be lazy.
+
+O ``in2csv`` é um conversor de arquivos para o formato csv. Com ele você consegue converter outros formatos (XLS, GeoJSON, tsv, etc) para o padrão CSV mas ele também faz um belo trabalho de padronizar o próprio CSV.
+
+	$ in2csv -e iso-8859-1 DespesasCandidatos-tmp.csv > DespesasCandidatos-clean.csv
+	$ head -n 5 DespesasCandidatos-clean.csv
 	Data e hora,Sequencial Candidato,UF,Número UE,Município,Sigla  Partido,Número candidato,Cargo,Nome candidato,CPF do candidato,Tipo do documento,Número do documento,CPF/CNPJ do fornecedor,Nome do fornecedor,Data da despesa,Valor despesa,Tipo despesa,Descriçao da despesa
-	23/08/201215:28:44,100000000122,MA,09210,SÃO LUÍS,PSTU,16789,Vereador,LUIZ CARLOS NOLETO CHAVES,23843616353,Nota Fiscal,001307,06331045000125,CORINGRA-COROATÁ INDÚSTRIA GRÁFICA LTDA,2012-07-27,300,Publicidade por materiais impressos,MATERIAIS GRAFICOS
+	23/08/201215:28:44,100000000122,MA,09210,SÃO LUÍS,PSTU,16789,Vereador,LUIZ CARLOS NOLETO CHAVES,23843616353,Nota Fiscal,001307,06331045000125,CORINGRA-COROATÁ INDÚSTRIA GRÁFICA LTDA,2012-07-27,300.0,Publicidade por materiais impressos,MATERIAIS GRAFICOS
+	23/08/201215:28:44,100000000199,MA,08419,MORROS,PV,43,Prefeito,SIDRACK SANTOS FEITOSA,45011990320,Nota Fiscal,1168,07153251000155,L O SIMOES BARBOSA - ME,2012-07-27,1650.0,Combustíveis e lubrificantes,"IMPORTA O DEBITO EM 600 LTS DE DIESEL NO VALOR DE R$ 2.10/LITRO, E 150 LTS DE GASOLINA NO VALOR DE 2,60/LITRO"
+	23/08/201215:28:44,100000000199,MA,08419,MORROS,PV,43,Prefeito,SIDRACK SANTOS FEITOSA,45011990320,Recibo,01,48273384349,MARIA LUCIA XAVEIR PEREIRA,2012-07-24,2000.0,Locação/cessão de bens imóveis,PAGAMENTO DO ALUGUEL DO COMITE DE CAMPANHA
+	23/08/201215:28:44,100000000210,MA,08419,MORROS,PRB,10222,Vereador,MARIA DO ESPIRITO SANTO SILVA RODRIGUES,49428730378,Nota Fiscal,0804,10780247000121,COMERCIO VAREJISTA DE COMBUSTIVEIS PARA VEICULOS AUTOMOTORES,2012-07-27,308.4,Combustíveis e lubrificantes,DESPESA COM COMBUSTIVEL
 
 Agora sim. De quebra ele também trocou os separadores (de ; por ,) e removeu as aspas duplas.
 
 ## Redirecionamento de saída
 
-Importante notar que ao invés de sobreescrever o arquivo eu criei um arquivo novo chamado ``DespesasCandidatos-utf8.csv``.
+Importante notar que ao invés de sobreescrever o arquivo eu criei um arquivo novo chamado ``DespesasCandidatos-clean.csv``.
 
 Para isso eu usei um 'output redirector'. O caracter ``>`` faz com que a saída do programa seja direcionado para um arquivo - sobreescrevendo-o. Se eu tivesse usado ``>>`` a saída do programa seria adicionado ao final do arquivo ao invés de sobreescrever.
  
-(Tente rodar o comando acima sem o > para ver o que acontece =)
+(Tente rodar o comando acima sem o > para ver o que acontece.)
 
 ## Investigando o dataset com o csvcut
 
 Agora a gente começa de fato a brincar com as ferramentas do csvkit. A primeira coisa a fazer é entender quais as colunas disponíveis no dataset. Para isso podemos usar o ``csvcut``.
 
-	$ csvcut -n DespesasCandidatos-utf8.csv
+	$ csvcut -n DespesasCandidatos-clean.csv
 	  1: Data e hora
 	  2: Sequencial Candidato
 	  3: UF
@@ -88,12 +108,12 @@ A opção -n simplesmente faz o sistema imprimir a primeira linha do arquivo.
 
 Isso nos mostra quais os campos, mas não mostra que tipo de informação eles contém. Vamos usar o csvcut de novo para visualizar apenas colunas específicas:
 
-	$ csvcut -c 14,16 DespesasCandidatos-utf8.csv | head -n 5
+	$ csvcut -c 14,16 DespesasCandidatos-clean.csv | head -n 5
 	Nome do fornecedor,Valor despesa
-	CORINGRA-COROATÁ INDÚSTRIA GRÁFICA LTDA,300
-	L O SIMOES BARBOSA - ME,1650
-	MARIA LUCIA XAVEIR PEREIRA,2000
-	COMERCIO VAREJISTA DE COMBUSTIVEIS PARA VEICULOS 	AUTOMOTORES,3084
+	CORINGRA-COROATÁ INDÚSTRIA GRÁFICA LTDA,300.0
+	L O SIMOES BARBOSA - ME,1650.0
+	MARIA LUCIA XAVEIR PEREIRA,2000.0
+	COMERCIO VAREJISTA DE COMBUSTIVEIS PARA VEICULOS 	AUTOMOTORES,308.4
 
 A opção -c permite escolher as colunas que queremos utilizar. Usamos um pipe | para passar esse arquivo pelo comando ``head`` para que só sejam mostrados os 5 primeiros resultados.
 
@@ -103,100 +123,13 @@ Os pipes ``|`` são um conceito chave no terminal e para usar o csvkit. Com ele 
 
 Se quizessemos extrair um arquivo apenas Nome, CNPJ e Valor das 500 primeiras linhas de doações poderiamos combinar o pipe com o redirecionador de saída ``>``:
 
-	$ csvcut -c 13,14,16 DespesasCandidatos-utf8.csv | head -n 500 > 500despesas.csv
+	$ csvcut -c 13,14,16 DespesasCandidatos-clean.csv | head -n 500 > 500despesas.csv
 
 ## Estatísticas com csvstat
 
 Outra ferramenta disponível no csvkit é o ``csvstat`` que faz as vezes do comando ``summary`` da linguagem de programação para estatísticas R e mostra uma série de informações interessantes sobre os nossos dados.
 
-	$ csvcut -c 14, 16 DespesasCandidatos-utf8.csv | csvstat
-	  1. Nome
-		<type 'unicode'>
-		Nulls: True
-		Unique values: 19551
-		5 most frequent values:
-			GRAFICA:	7790
-			AUTO:	5133
-			POSTO:	4947
-			JOSE:	2572
-			MARIA:	2184
-		Max length: 19851
-	  2. do
-		<type 'unicode'>
-		Nulls: True
-		Unique values: 15264
-		5 most frequent values:
-			DE:	7807
-			E:	6924
-			POSTO:	5267
-			GRAFICA:	3648
-			&:	3602
-		Max length: 8165
-	  3. fornecedor,Valor
-		<type 'unicode'>
-		Nulls: True
-		Unique values: 24444
-		5 most frequent values:
-			DE:	15501
-			E:	7843
-			DA:	7244
-			DOS:	3462
-			EDITORA:	2943
-		Max length: 15507
-	  4. despesa
-		<type 'unicode'>
-		Nulls: True
-		Unique values: 24204
-		5 most frequent values:
-			E:	5464
-			DE:	4619
-			LTDA:	3911
-			-:	2933
-			EDITORA:	2626
-		Max length: 28
-
-Estou escrevendo esse documento transcrevendo a experiência da linha de comando - com todos os seus erros e acertos.
-Nesse momento, o que deveria ter aparecido era um sumário das linhas 14 (Nome do fornecedor) e 16 (Valor da despesa) ao invés disso o sistema aparentemente endoidou e desentendeu as linhas!
-
-Fiquei tentando debuggar o problema algum tempo e estou certo de que é um bug na padronização inicial que fizemos com o ``in2csv`` - provavelmente um desentendimento entre o separador e o fato do arquivo do TSE ter todos os campos envolvidos em aspas duplas em alguma das linhas do arquivo. Isso porque se pegarmos apenas as primeiras 50 linhas, tudo fica ok:
-
-	$ csvcut -c 14,16 DespesasCandidatos-utf8.csv | head -n 50 | csvstat
-	  1. Nome do fornecedor
-		<type 'unicode'>
-		Nulls: False
-		Unique values: 47
-		5 most frequent values:
-			BRASIL EDITORA E COMUNICAÇÃO VISUAL LTDA.:	3
-			DOMINGOS SOBRINHO SANDES BARROS:	1
-			RUDSON DOS SANTOS MACIEL:	1
-			GRÁFICA E EDITORA NORTESUL LTDA:	1
-			AZEITAO DERIVA. DE PETROLEO LTDA:	1
-		Max length: 60
-	  2. Valor despesa
-		<type 'int'>
-		Nulls: False
-		Min: 15
-		Max: 89614
-		Sum: 317055
-		Mean: 6470.51020408
-		Median: 2000
-		Standard Deviation: 14744.8120909
-		Unique values: 37
-		5 most frequent values:
-			10000:	5
-			3000:	5
-			1500:	2
-			200:	2
-			300:	2
-	Row count: 49
-
-Mas estamos desviando do assunto. Já que o in2csv não funcionou corretamente para esse caso, resolvi de uma forma mais fácil. Abri o OpenOffice, escolhi o encoding Europa Ocidental ``ISO-8859-1`` na tela de abertura, o separador ``;`` e mandei abrir o arquivo DespesasCandidatos.csv.
-
-Depois cliquei em Salvar, escolhi a checkbox 'Editar as configurações do filtro' e selecionei ``UTF-8`` como codificação e ``,`` como separador - chamei o arquivo de DespesasCandidatos-clean.csv
-
-E de volta pra linha de comando:
-
-	$ csvcut -c 14,16 DespesasCandidatos-clean.csv | csvstat
+	$ csvcut -c 14,16 DespesasCandidatos-clean.csv | csvstat -d "," -y 1024
 	  1. Nome do fornecedor
 		<type 'unicode'>
 		Nulls: True
@@ -209,28 +142,28 @@ E de volta pra linha de comando:
 			JARDSON EDSON GUEDES DA SILVA ALMEIDA:	138
 		Max length: 70
 	  2. Valor despesa
-		<type 'int'>
+		<type 'float'>
 		Nulls: False
-		Min: -50063
-		Max: 20042609
-		Sum: 1345229744
-		Mean: 8209.72881397
-		Median: 400.0
-		Standard Deviation: 106083.376838
-		Unique values: 15013
+		Min: -10000.0
+		Max: 1740000.0
+		Sum: 191607160.73
+		Mean: 1169.34883088
+		Median: 290.0
+		Standard Deviation: 8544.13328164
+		Unique values: 18517
 		5 most frequent values:
-			300:	6245
-			100:	5826
-			200:	5053
-			50:	4432
-			150:	3606
+			300.0:	6245
+			100.0:	5826
+			200.0:	5053
+			50.0:	4432
+			150.0:	3606
 	Row count: 163858
 
-Há, agora funcionou. E o csvstats deu algumas informações interessantes pra nossa exploração - a empresa que mais recebeu pagamentos (em quantidade e não na soma do valor) foi a Ediouro, e das 163858 doações - existem apenas 79329 empresas/pessoas prestando serviços.
+O csvstats deu algumas informações interessantes pra nossa exploração - a empresa que mais recebeu pagamentos (em quantidade e não na soma do valor) foi a Ediouro, e das 163858 doações - existem apenas 79329 empresas/pessoas prestando serviços.
 
-O csvstats tenta interpretar também o tipo de informação disponível - ele entendeu que o campo de Valor era um valor numérico e deu uma série de consolidações estatísticas.
+O csvstats tenta interpretar também o tipo de informação disponível, por algum motivo se eu rodo o comando apenas ele não só se confunde com relação ao separador (por isso tive que explicitamente usar a opção ``-d`` para selecionar a virgula como delimitador como ele também não entendeu que o campo de Valor era um valor numérico, então usei a opção ``-y`` para pedir que ele tentasse descobrir quais os tipos dos campos a partir apenas dos primeiros 1024 bytes. Com isso ele deu uma série de consolidações estatísticas.
 
-A maior despesa foi no valor de 20mi! A despesa média de 400 reais. E a despesa mais frequente de 300 reais...
+A maior despesa foi no valor de 1.74mi! A despesa média de 290 reais. E a despesa mais frequente de 300 reais...
 
 ## Procurando colunas com csvgrep
 
@@ -240,14 +173,14 @@ Vamos buscar os 10 primeiros pagamentos feito para a EDIOURO então para entende
 
 	$ csvcut -c 14,16,18 DespesasCandidatos-clean.csv | csvgrep -c 1 -m "EDIOURO GRAFICA E EDITORA LTDA" | head -n 10
 	EDIOURO GRAFICA E EDITORA LTDA,7431.25,FOLHETOS
-	EDIOURO GRAFICA E EDITORA LTDA,3445,FOLHETOS
-	EDIOURO GRAFICA E EDITORA LTDA,3445,FOLHETOS
-	EDIOURO GRAFICA E EDITORA LTDA,3445,FOLHETOS
-	EDIOURO GRAFICA E EDITORA LTDA,3445,FOLHETOS
+	EDIOURO GRAFICA E EDITORA LTDA,3445.0,FOLHETOS
+	EDIOURO GRAFICA E EDITORA LTDA,3445.0,FOLHETOS
+	EDIOURO GRAFICA E EDITORA LTDA,3445.0,FOLHETOS
+	EDIOURO GRAFICA E EDITORA LTDA,3445.0,FOLHETOS
 	EDIOURO GRAFICA E EDITORA LTDA,1722.5,FOLHETOS
-	EDIOURO GRAFICA E EDITORA LTDA,2756,FOLHETOS
-	EDIOURO GRAFICA E EDITORA LTDA,4134,FOLHETOS
-	EDIOURO GRAFICA E EDITORA LTDA,2067,FOLHETOS
+	EDIOURO GRAFICA E EDITORA LTDA,2756.0,FOLHETOS
+	EDIOURO GRAFICA E EDITORA LTDA,4134.0,FOLHETOS
+	EDIOURO GRAFICA E EDITORA LTDA,2067.0,FOLHETOS
 
 Folhetos!
 O parametro ``-c`` do csvgrep escolhe a coluna em que vamos buscar (lembrando que o retorno do csvcut é um csv em si, então ali é a primeira coluna, pq foi assim que decididimos no primeiro parametro do ``-c`` do csvcut. Meio confuso, mas brinca ae.)
@@ -305,4 +238,29 @@ Valor despesa,Nome do fornecedor,Sigla  Partido,Descriçao da despesa
 
 De novo, usamos o csvcut para cortar apenas as colunas 16 (valor), 14 (nome), 6 (partido), e 18 (descrição), pedimos para o grep filtrar a coluna 3 (da nova tabela) por "PT" e depois para o csvsort ordenar em ordem reversa (com a opção ``-r``) se não especificarmos qual coluna, o csvsort vai usar a primeira coluna pro sort. Por fim usamos o head para mostrar apenas as primeiras 10 linhas (11 com o cabeçalho).
 
+## csvlook
 
+Para finalizar e mostrar o ``csvlook`` que mostra a tabela no terminal de uma maneira que seja fácil de ler:
+
+	$ cat DespesasCandidatos-clean.csv | csvgrep -c 18 -r "JINGLE" | csvsort -c 16 -r -d "," | head -n 6 | csvcut -c 9,6,5,3,16 | csvlook
+	|-----------------------------------+----------------+------------------+----+----------------|
+	|  Nome candidato                   | Sigla  Partido | Município        | UF | Valor despesa  |
+	|-----------------------------------+----------------+------------------+----+----------------|
+	|  RENATO REZENDE ROCHA FILHO       | PSDB           | PILAR            | AL | 15000.0        |
+	|  OTÁVIO MARCELO MATOS DE OLIVEIRA | PP             | MATA DE SÃO JOÃO | BA | 12000.0        |
+	|  CARLOS MAGNO DE MOURA SOARES     | PC do B        | CONTAGEM         | MG | 10000.0        |
+	|  MARCELO ESSVEIN                  | PDT            | TRIUNFO          | RS | 6000.0         |
+	|  FELIX MONTEIRO LENGRUBER         | PMDB           | MACUCO           | RJ | 5000.0         |
+	|-----------------------------------+----------------+------------------+----+----------------|
+
+Uma lista com os 5 jingles mais caros.
+
+Se você conseguir entender o comando acima, já esta bem afiado no csvkit ;)
+
+Como isso aqui é basicamente uma adaptação do [tutorial gringo](http://csvkit.readthedocs.org/en/latest/index.html) e ele ainda não esta completo, eu também ainda não vou completar esse aqui.
+
+Mas a lógica é mais ou menos essa. Então acho que podemos escrever colaborativamente exemplos dos outros comandos disponíveis. Principalmente o ``csvstack`` [documentação](http://csvkit.readthedocs.org/en/latest/scripts/csvstack.html) e o ``csvjoin`` [documentação](http://csvkit.readthedocs.org/en/latest/scripts/csvjoin.html)
+
+Que permitem agrupar CSVs - csvstack (por exemplo, a mesma tabela de vários anos) ou combinar tabelas a partir de campos específicos - csvjoin (por exemplo, juntar diferentes informações sobre munícipios a partir do código IBGE).
+
+A documentação completa do csvkit esta [aqui](http://csvkit.readthedocs.org/).
