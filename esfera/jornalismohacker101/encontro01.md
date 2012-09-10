@@ -5,8 +5,9 @@ Para esse exercício vamos utilizar a primeira parcial de doações de campanha 
 
 Vamos começar criando uma espaço de trabalho:
 
-`$ mkdir encontro1
-`$ cd encontro1
+	$ mkdir encontro1
+	$ cd encontro1
+
 
 Agora vamos baixar os arquivos:
 
