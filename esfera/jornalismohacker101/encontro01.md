@@ -5,8 +5,8 @@ Para esse exercício vamos utilizar a primeira parcial de doações de campanha 
 
 Vamos começar criando uma espaço de trabalho:
 
-`$ mkdir encontro1
-`$ cd encontro1
+	$ mkdir encontro1
+	$ cd encontro1
 
 Agora vamos baixar os arquivos:
 
@@ -70,15 +70,15 @@ O ``in2csv`` é um conversor de arquivos para o formato csv. Com ele você conse
 	23/08/201215:28:44,100000000199,MA,08419,MORROS,PV,43,Prefeito,SIDRACK SANTOS FEITOSA,45011990320,Recibo,01,48273384349,MARIA LUCIA XAVEIR PEREIRA,2012-07-24,2000.0,Locação/cessão de bens imóveis,PAGAMENTO DO ALUGUEL DO COMITE DE CAMPANHA
 	23/08/201215:28:44,100000000210,MA,08419,MORROS,PRB,10222,Vereador,MARIA DO ESPIRITO SANTO SILVA RODRIGUES,49428730378,Nota Fiscal,0804,10780247000121,COMERCIO VAREJISTA DE COMBUSTIVEIS PARA VEICULOS AUTOMOTORES,2012-07-27,308.4,Combustíveis e lubrificantes,DESPESA COM COMBUSTIVEL
 
-Agora sim. De quebra ele também trocou os separadores (de ; por ,) e removeu as aspas duplas.
+Agora sim. De quebra ele também trocou os separadores (de ``;`` por ``,``) e removeu as aspas duplas.
 
 ## Redirecionamento de saída
 
 Importante notar que ao invés de sobreescrever o arquivo eu criei um arquivo novo chamado ``DespesasCandidatos-clean.csv``.
 
-Para isso eu usei um 'output redirector'. O caracter ``>`` faz com que a saída do programa seja direcionado para um arquivo - sobreescrevendo-o. Se eu tivesse usado ``>>`` a saída do programa seria adicionado ao final do arquivo ao invés de sobreescrever.
+Para isso eu usei um 'output redirector'. O caractere ``>`` faz com que a saída do programa seja direcionado para um arquivo - sobreescrevendo-o. Se eu tivesse usado ``>>`` a saída do programa seria adicionado ao final do arquivo ao invés de sobreescrever.
  
-(Tente rodar o comando acima sem o > para ver o que acontece.)
+(Tente rodar o comando acima sem o ``>`` para ver o que acontece =)
 
 ## Investigando o dataset com o csvcut
 
@@ -104,7 +104,7 @@ Agora a gente começa de fato a brincar com as ferramentas do csvkit. A primeira
 	 17: Tipo despesa
 	 18: Descriçao da despesa
 
-A opção -n simplesmente faz o sistema imprimir a primeira linha do arquivo.
+A opção ``-n`` simplesmente faz o sistema imprimir a primeira linha do arquivo.
 
 Isso nos mostra quais os campos, mas não mostra que tipo de informação eles contém. Vamos usar o csvcut de novo para visualizar apenas colunas específicas:
 
@@ -115,7 +115,7 @@ Isso nos mostra quais os campos, mas não mostra que tipo de informação eles c
 	MARIA LUCIA XAVEIR PEREIRA,2000.0
 	COMERCIO VAREJISTA DE COMBUSTIVEIS PARA VEICULOS 	AUTOMOTORES,308.4
 
-A opção -c permite escolher as colunas que queremos utilizar. Usamos um pipe | para passar esse arquivo pelo comando ``head`` para que só sejam mostrados os 5 primeiros resultados.
+A opção -c permite escolher as colunas que queremos utilizar. Usamos um pipe ``|`` para passar esse arquivo pelo comando ``head`` para que só sejam mostrados os 5 primeiros resultados.
 
 ## Pipe
 
