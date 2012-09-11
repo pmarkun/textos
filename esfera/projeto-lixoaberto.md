@@ -19,12 +19,12 @@ O portal de transparência vai trabalhar com três seções- um painel de indica
 O painel de indicadores vai trabalhar com mapas e gráficos e utilizar tanto indicadores específicos quanto indicadores de contexto e vão possibilitar uma visão geral do cenário do lixo na cidade de São Paulo.
 
 * Mapa da cidade com indicadores por regiões geográficas (Bairros, subprefeituras e regiões)
-** indicadores de contexto (idh, população, área, etc)
-** % de coleta seletiva
-** % de material reciclado em relação à produção de resíduos
-** quantidade de residuo produzido pela cidade (per ** capita, a ser trabalhado por regiões da cidade)
-** inclusão de catadores (censo de catadores, programas e crédito)
-** outros indicadores relevantes
+* indicadores de contexto (idh, população, área, etc)
+* % de coleta seletiva
+* % de material reciclado em relação à produção de resíduos
+* quantidade de residuo produzido pela cidade (per ** capita, a ser trabalhado por regiões da cidade)
+* inclusão de catadores (censo de catadores, programas e crédito)
+* outros indicadores relevantes
 * Possibilidade de exportar as tabelas em formato aberto.
 * Possibilidade de gerar embeds do código para compartilhamento em blogs e redes sociais.
 
