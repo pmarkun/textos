@@ -15,3 +15,5 @@ O governo só aportaria o recurso depois que o projeto tivesse sido captado (na 
 ###Desafios###
 * Criar um processo de seleção inclusivo, com critérios claros de que projetos podem entrar nesse modelo.
 * Integrar o mecanismo de financiamento direto com outras possíbilidades como renúncia fiscal. (i.e adicionar uma terceira camada onde o recurso pode ser doado via isenção de ICMS)
+* Desburocratizar a relação com os mecanismos de fomento público existentes. Algum tipo de institucionalidade vai ser necessária, mas podemos trabalhar os modelos existentes para que - no mínimo - a primeira parte da captação seja autorizada antes de ter que preencher centenas de papéis e emitir um milhão de certificados.
+	* Na experiência recente que tivemos com a Rockefeller Foundation, ganhar o prêmio significa que o recurso esta devidamente reservado - e só a partir dai é que se tem que ir atrás de preencher os pré-requisitos legais. Correndo sempre o risco do projeto não se viabilizar nessa fase, mas pelo menos ai temos uma quantidade menor de projetos e a equipe que cuida da burocracia poderia atenção individual para cada projeto buscando alternativas para viabilizar.
