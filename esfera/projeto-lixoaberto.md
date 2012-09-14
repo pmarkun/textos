@@ -20,10 +20,12 @@ O painel de indicadores vai trabalhar com mapas e gráficos e utilizar tanto ind
 
 * Mapa da cidade com indicadores por regiões geográficas (Bairros, subprefeituras e regiões)
 * indicadores de contexto (idh, população, área, etc)
-* % de coleta seletiva
+* % porcentagem de domicilios que dispoem de coleta seletiva
 * % de material reciclado em relação à produção de resíduos
 * quantidade de residuo produzido pela cidade (per ** capita, a ser trabalhado por regiões da cidade)
 * inclusão de catadores (censo de catadores, programas e crédito)
+* Resíduos depositados em aterros sanitários
+* % dos catadores existentes incluídos no sistema de coleta seletiva, avulsos e cooperativados.
 * outros indicadores relevantes
 * Possibilidade de exportar as tabelas em formato aberto.
 * Possibilidade de gerar embeds do código para compartilhamento em blogs e redes sociais.
@@ -36,7 +38,8 @@ Esse sistema sera alimentado manualmente e funcionara como um banco de contratos
 
 ### Canal de comunicação
 
-Uma plataforma de blog multiusuário para subir conteúdo relacionado com a plataforma e criar histórias que facilitem a compreensão do processo político por trás dos dados.
+Uma plataforma de blog multiusuário para subir conteúdo relacionado com a plataforma e criar histórias que facilitem a compreensão do processo político e econômico por trás dos dados.
+
 
 ## Custo
 R$20.000
