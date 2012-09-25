@@ -54,7 +54,7 @@ Para corrigir o encoding, podemos usar uma ferramenta do próprio csvkit. Mas an
 
 O sed é o 'steam editor', um editor de linha de comando que pode fazer um monte de coisas legais.
 
-	$ cat DespesasCandidatos.csv | sed s/\([0-9]\),\(0-9\)/\1.\2/ > DespesasCandidatos-tmp.csv
+	$ cat DespesasCandidatos.csv | sed "s/\([0-9]\),\([0-9]\)/\1.\2/" > DespesasCandidatos-tmp.csv
 
 Basicamente o que fizemos aqui foi usar o comando ``s`` do sed para substituir a expressão regular \([0-9])\),\([0-9]\) por \1.\2 e colar o resultado no arquivo DespesasCandidatos-tmp.csv
 
