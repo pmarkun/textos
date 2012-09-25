@@ -92,3 +92,9 @@ Ele vai trabalhar com as mesmas informações que os SHPs mas com um formato mai
 
 Outro formato bastante comum na web é o [KML](http://en.wikipedia.org/wiki/KML) que foi desenvolvido pelo Google na época do Google Earth. Ele é uma extensão do XML o que faz ele menos legível e mais difícil de trabalhar do que o GeoJSON. Mas tem um monte de gente que trabalha com ele... então paciência.
 
+## Convertendo entre formatos
+
+Varias vezes (muitas vezes!) você vai encontrar o mapa, mas não no formato que queria. Ai precisamos converter esse arquivo. A forma mais fácil de fazer talvez seja abrir ele no seu QuantumGIS (que usa GDAL internamente) e exportar em um outro formato (Shape ou GeoJSON).
+
+Mas também da para fazer isso via linha de comando, usando o ogr2ogr que vem junto no pacote do GDAL.
+
