@@ -40,7 +40,7 @@ Por isso essa não é a ferramenta ideal para trabalhar com marcadores dinâmico
 
 Vale lembrar que apesar disso da para combinar os mapas desenhados no Tilemill com um monte de outras ferramentas, então da pra resolver os marcadores dinâmicos em outra camada.
 
-Para baixar e instalar o Tilemill basta acessar o (site deles](http://mapbox.com/tilemill/). 
+Para baixar e instalar o Tilemill basta acessar o [site deles](http://mapbox.com/tilemill/). 
 
 A versão para Linux esta empacotada para Ubuntu e outras distros vão ter que bater um pouco de cabeça.
 
