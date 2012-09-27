@@ -98,3 +98,73 @@ Varias vezes (muitas vezes!) você vai encontrar o mapa, mas não no formato que
 
 Mas também da para fazer isso via linha de comando, usando o ogr2ogr que vem junto no pacote do GDAL.
 
+
+----
+
+## Exercício com Dados da Educação
+Usando a base de dados do perfil munícipal de 2009.
+
+Para baixar o arquivo vamos utilizar o comando ``wget`` na linha de comando. Opcionalmente podemos usar o ``curl`` ou baixar ele através do browser.
+
+	wget ftp://ftp.ibge.gov.br/Perfil_Municipios/2009/base_MUNIC_2009.zip
+
+É um arquivo compactado. Para descompactar via linha de comando podemos usar o ``unzip``.
+
+	unzip base_MUNIC_2009.zip
+
+Isso vai gerar o arquivo ``base.xls`` que é um arquivo do excel com as várias tabelas que vamos utilizar.
+
+Esse arquivo contém várias tabelas diferentes separados por assuntos. Para esse exercício vamos extrair a tabela de 'Educação' - basta abrir no OpenOffice, selecionar a tabela certa e mandar salvar como um ``dbf``.
+
+Vale manter aberta também a tabela Dicionário que explica o que é cada campo.
+
+No campo A1 temos o número do munícipio no IBGE que vamos utilizar para conectar com o shape correto.
+
+O shape é o arquivo geográfico que contém as formas e as coordenadas geográficas do nosso mapa. Existem várias fontes online pra isso. A [gismaps](http://gismaps.com.br) é uma delas.
+
+Para baixar o shape dos munícipios brasileiros vamos de novo usar o wget e dezipar. No terminal:
+
+	wget http://www.gismaps.com.br/divpol/municipios_br.zip
+	unzip municipios_br.zip
+
+Com isso vamos ficar com uma série de arquivos na pasta. O que importa pra gente são os ``municipios_br.*``.
+
+Nesse momento o que interessa pra gente é o ``.dbf`` que é onde estão armazenadas os atributos dos shapes - incluso o código IBGE que é o que vamos usar como chave comum para conectar com o arquivo do perfil munícipal.
+
+Como nem tudo na vida é fácil, o código do IBGE no nosso ``educacacao.dbf`` e o código no shape não batem. Isso porque, no shape, o código tem 7 dígitos - os 6 mais um dígito verificador. Que merda, hein?
+
+Tem duas formas de corrigir isso, uma era a gente calcular o dígito verificador (é uma fórmula matematica, afinal) e a outra é cortar o último dígito do ``.dbf`` do shape.
+
+Como sou sempre a favor da lei do menor esforço, vamos cortar o dígito do shape usando o próprio OpenOffice.
+
+Abra o arquivo municipios_br.dbf no OpenOffice (eu tive algum problema para salvar arquivos de volta como .dbf, faltava algum pacote no Ubuntu que não lembro qual.)
+
+Selecione a coluna CODIGO_MUN,C,11 e mande 'Localizar e substituir' (ctrl+alt+f).
+
+Em 'Mais opções', selecione 'Expressões Regulares' e ai você vai substituir ``([0-9]{6})[0-9]{1}`` por ``$1``.
+
+Pra entender esse comando, cola no [Piazinho](http://www.piazinho.com.br) que ensina como usar expressões regulares.
+
+Ok, mole
+
+Agora vamos usar o QGis para conectar os dois arquivos.
+
+Abra o QGis e adicione - Camadas -> Adicionar Camada Vetorial - o shape (municipios_br.shp) e o dbf da educação (educacao.dbf).
+
+Agora vamos conectar os dois bancos e exportar novamente o shape já com os dados da educação.
+
+Selecione o layer dos municipios_br, botão direito e Propriedades.
+
+Vá até a aba de Uniões e peça para ele unir o campo A1 da camada 'educacao' com o campo CODIGO_MUN.
+
+Botão direito, salvar como e salve como um novo arquivo shape (ou opcionalmente geojson).
+
+E vamos ao Tilemill :)
+
+
+
+
+
+
+
+
