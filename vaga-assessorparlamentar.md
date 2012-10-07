@@ -12,6 +12,7 @@ Vereador eleito em 2012 procura:
 * NDA
 
 **Para:**
+
 Dar transparência para o trabalho diário do vereador e do contexto político onde ele esta inserido. Levantar informações públicas e criar visualizações que facilitem o processo de tomada de decisão.
 
 **Requisitos:**
@@ -36,10 +37,15 @@ Dar transparência para o trabalho diário do vereador e do contexto político o
 * Coisas que não fazemos ideia ainda, mas que obviamente vamos inventar no meio do caminho
 
 **Salário Bruto:** R$6.245,75 (baseado no cargo CC-4 da Câmara Municipal de Curitiba)
+
 **Tipo de trabalho:** Presencial
+
 **Local:** Câmara Municipal
+
 **Carga-horária:** Flexível ( 24/7 )
+
 **ps:** Obviamente, você não vai ter que fazer tudo isso sozinho
+
 **ps2:** Obviamente, você vai ter que se virar sozinho às vezes
 
 ## Assessor de Participação
@@ -54,6 +60,7 @@ Vereador eleito em 2012 procura:
 * NDA
 
 **Para:**
+
 Auxiliar no processo de abertura  e participação do gabinete, criando e facilitando a possíbilidade de interação com a sociedade - organizada ou não.
 
 **Requisitos:**
@@ -74,8 +81,13 @@ Auxiliar no processo de abertura  e participação do gabinete, criando e facili
 * Coisas que não fazemos ideia ainda, mas que obviamente vamos inventar no meio do caminho
 
 **Salário Bruto:** R$6.245,75 (baseado no cargo CC-4 da Câmara Municipal de Curitiba)
+
 **Tipo de trabalho:** Presencial
+
 **Local:** Câmara Municipal
+
 **Carga-horária:** Flexível ( 24/7 )
+
 **ps:** Obviamente, você não vai ter que fazer tudo isso sozinho
+
 **ps2:** Obviamente, você vai ter que se virar sozinho às vezes
