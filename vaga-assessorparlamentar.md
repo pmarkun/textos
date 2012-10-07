@@ -35,6 +35,13 @@ Dar transparência para o trabalho diário do vereador e do contexto político o
 * Coordenar a implementação do streaming (em software livre) das reuniões e encontros
 * Coisas que não fazemos ideia ainda, mas que obviamente vamos inventar no meio do caminho
 
+**Salário Bruto:** R$6.245,75 (baseado no cargo CC-4 da Câmara Municipal de Curitiba)
+**Tipo de trabalho:** Presencial
+**Local:** Câmara Municipal
+**Carga-horária:** Flexível ( 24/7 )
+**ps:** Obviamente, você não vai ter que fazer tudo isso sozinho
+**ps2:** Obviamente, você vai ter que se virar sozinho às vezes
+
 ## Assessor de Participação
 
 Vereador eleito em 2012 procura:
@@ -64,3 +71,11 @@ Auxiliar no processo de abertura  e participação do gabinete, criando e facili
 * Marcar toda semana um dia para que o gabinete trabalhe a partir de um local público ou organização social em uma parte diferente da cidade. Essa agenda deve ser pública e decidida com pelo menos 15 dias de antecedência.
 * Organizar em local público uma desconferência mensal (toda terceira sexta-feira do mês) com convite aberto para cidadões, movimentos sociais e também outros vereadores e assessores parlamentar com o objetivo de discutir idéias e afinar projetos.
 * Organizar periódicamente um 'Papo com Dados' - evento que reune organizações sociais e especialistas em um determinado tema. Esse evento deve acontecer em local público e ser transmitido pela internet e deve servir para gerar insumo para os projetos de lei.
+* Coisas que não fazemos ideia ainda, mas que obviamente vamos inventar no meio do caminho
+
+**Salário Bruto:** R$6.245,75 (baseado no cargo CC-4 da Câmara Municipal de Curitiba)
+**Tipo de trabalho:** Presencial
+**Local:** Câmara Municipal
+**Carga-horária:** Flexível ( 24/7 )
+**ps:** Obviamente, você não vai ter que fazer tudo isso sozinho
+**ps2:** Obviamente, você vai ter que se virar sozinho às vezes
