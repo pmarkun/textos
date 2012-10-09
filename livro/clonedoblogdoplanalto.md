@@ -1,6 +1,6 @@
 # THacker: O Clone do Blog do Planalto
 
-Lembro que no primeiro ano que fui ao FISL, estava morando em Porto Alegre na época e fui para o evento representando o Jornal de Debates - um projeto de jornalismo colaborativo que criei com meu pai alguns anos antes - com a pergunta ''.
+Lembro que no primeiro ano que fui ao FISL, estava morando em Porto Alegre na época e fui para o evento representando o Jornal de Debates - um projeto de jornalismo colaborativo que criei com meu pai alguns anos antes - com a pergunta 'O Software Livre é uma solução viável hoje?'.
 
 As repostas, gravadas em vídeo com um N95 (o primeiro celular realmente multimidia, que serviu a toda uma geração de 'reporteres móveis') ainda estão disponíveis na rede e mostram diferentes matizes daquela cultura livre.
 
