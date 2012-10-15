@@ -88,4 +88,3 @@ Fizemos 15 cidades, 3 dias por cidade, dividas em 3 viagens - escolhidas a dedo,
 A ideia era alcançar todos os pontos de Alagoas e construir a partir da prática uma metodologia que poderia ser replicada por outras cidades que quisessem contar suas próprias histórias.
 
 
-
