@@ -35,7 +35,7 @@ O terceiro foi tentar entender o funcionamento da coleta de lixo e do saneamento
 
 Era menos reportagem e mais um processo de diálogo critico mesmo, então não teve nada muito conclusivo.
 
-De qualquer forma, o Zuardi subiu os áudios brutos (aqui)[http://127.0.0.1/thereisnoplacelikehome].
+De qualquer forma, o Zuardi subiu os áudios brutos [aqui](http://127.0.0.1/thereisnoplacelikehome).
 
 (O quarto rádio ficou com o Belasco, que plugava a saída do áudio na rádio livre FM quando era a hora certa.)
 
@@ -49,7 +49,7 @@ Eu juntei uma galera para fazer a oficina de 'Projeto de Lei'. A Câmara daqui t
 
 Eram umas 12 pessoas só e no final ficaram só umas 6. Fazer com adultos e crianças ao mesmo tempo era algo que eu queria faz tempo... mas é dificil conciliar os dois ritmos e acabou que as crianças sairam fora e os adultos seguiram mas sempre com aquele pé atrás de quem já não acredita tanto no impossível.
 
-Ainda assim o projeto saiu. A ideia, grosso modo, é criar um sistema mais inteligente de coleta seletiva - da pra consultar o PL (aqui)[http://127.0.0.1/pl].
+Ainda assim o projeto saiu. A ideia, grosso modo, é criar um sistema mais inteligente de coleta seletiva - da pra consultar o PL [aqui](http://127.0.0.1/pl).
 
 O Ronaldo, professor de história e de guitarra, topou encabeçar o movimento das assinaturas e acompanhar o processo na Câmara. Vamos ver no que dá.
 
