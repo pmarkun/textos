@@ -20,6 +20,8 @@ O valor inicial do projeto esta estimado para termos 100 pontos de rede espalhad
 
 O projeto é também aberto para outras regiões de São Paulo (lembrando que o frete não esta incluido e que cada um vai ter que vir retirar o seu roteador na Casa de Cultura Digital) e do Brasil, mas a ideia de focar no Baixo Centro tem a ver com a gente criar uma nuvem perceptivel e mostrar o potencial dessa ideia - que figurou no plano de governo de boa parte dos candidatos a prefeito.
 
+Além disso estamos planejando a construção de um site que vai mapear esses pontos wifis e mostrar a cobertura da nossa nuvem de conexão colaborativa.
+
 Vamos fazer nós mesmos antes que eles não façam ;)
 
 ### Como ira recompensar seus apoiadores
