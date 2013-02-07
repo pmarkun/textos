@@ -41,6 +41,25 @@ Essa extensão do conceito de pontos de cultura poderia potencializar bastante a
 
 Já comentei um pouco disso [aqui](https://github.com/pmarkun/textos/blob/master/crowdfunding.gov.md).
 
+## Sistema de Comunicação Público
+
+Adaptar o [Alaveteli](https://github.com/sebbacon/alaveteli) um sistema de código aberto desenvolvido pela MySociety para dar transparência e publicidade a toda a comunicação com a secretaria.
+
+O Alaveteli é um sistema criado para lidar com pedidos de acesso à informação que deixa pública toda a conversa entre sociedade e governo.
+
+A Transparência Hacker implementou e mantém junto com a OKFN Br o [QueremosSaber](http://www.queremossaber.org.br) e ainda que a cultura de transparência não tenha muita força em vários setores do poder público, existe várias histórias legais e conversas interessantes disponibilizadas na plataforma.
+
+Adaptar a ferramenta para uso dentro de uma estrutura do executivo, pode ser bastante interessante e ajudando a compor um espaço público para discussão e intervenção no processo das políticas públicas.
+
+Imagine só que esse documento e todas as eventuais respostas e encaminhamentos pudessem estar armazenados e disponibilizados publicamente pra todo mundo acompanhar e participar?
+
+## Transparência nos processos de seleção e curadoria
+
+(...)
+
+## Dados Abertos
+
+(...)
 
 **Esse documento esta em constante atualização**
 
