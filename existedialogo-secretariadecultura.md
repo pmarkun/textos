@@ -1,4 +1,4 @@
-# Perguntas e Proposta para a Secretária de Cultura de São Paulo
+# Propostas para a Secretária de Cultura de São Paulo
 
 Estas são algumas ideias e propostas disperas para a Secretária de Cultura de São Paulo.
 
@@ -43,4 +43,5 @@ Já comentei um pouco disso [aqui](https://github.com/pmarkun/textos/blob/master
 
 
 **Esse documento esta em constante atualização**
+
 Submeta seus pulls requests com ideias, críticas e correções.
