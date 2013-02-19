@@ -35,8 +35,8 @@ Para presidir os trabalhos, compuseram a mesa o Presidente, **Claudio Prado**, a
 **Diretores sem designação específica:**
 
 * **Liane Lira**
-* **Priscila Cavalieri**
-* **Bruno Neyra**
+* **Priscilla Cavalieri Oliveira**, brasileira, solteira, jornalista, maior, portadora da cédula de identidade no 43.760.705-7/SSP-SP e CPF no 368.976.258/84, residente e domiciliada na cidade de São Paulo/SP à rua Rua Professor Henrique Neves Lefevre, 645 - Jardim Petrópolis - CEP 04637-001
+* **Bruno Renatto Sugobono Neyra**, brasileiro, casado, hacker, maior, portador da cédula de identidade no 46.708.141-4/SSP-SP e CPF no 349.867.798-50, residente e domiciliado na cidade de Campinas-SP à rua Francisco Andreo Aledo, 255 - Casa 4 - CEP 13084-200
 * y
 * z
 
