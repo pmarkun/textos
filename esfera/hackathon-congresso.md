@@ -2,8 +2,8 @@
 ~5 dias
 
 ## Objetivos
-Promover inovação dentro da Câmara Federal
-Aproximar os hackers do processo político
+* Promover inovação dentro da Câmara Federal
+* Aproximar os hackers do processo político
 
 ## Possíveis parceiros privados/intl
 * Omydiar Foundation (apoiou a OGP através da CGU)
@@ -16,12 +16,12 @@ Aproximar os hackers do processo político
 * Unesco
 
 ## Possíveis parceiros públicos
-Secretária Geral da Presidência
-CGU
-Ministério do Planejamento (INDA/SLTI)
+* Secretária Geral da Presidência
+* CGU
+* Ministério do Planejamento (INDA/SLTI)
 
 ## Possíveis parceiros nacionais
-W3C/CGI
+* W3C/CGI
 
 ## Agenda
 * Dias 1 -> Conferência
