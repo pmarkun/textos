@@ -34,22 +34,22 @@ Para presidir os trabalhos, compuseram a mesa o Presidente, **Claudio Prado**, a
 
 **Diretores sem designação específica:**
 
-* **Liane Lira**
+* **Liane Gutmanis de Lira**, brasileira, solteira, advogada, maior, portadora da cédula de identidade no 29.001.930-8/SSP-SC e CPF no 223.348.058-90, residente e domiciliada na cidade de São Paulo-SP, à rua Joaquim Antunes, 577, apto. 142 - Pinheiros - CEP 05415-011;
 * **Priscilla Cavalieri Oliveira**, brasileira, solteira, jornalista, maior, portadora da cédula de identidade no 43.760.705-7/SSP-SP e CPF no 368.976.258/84, residente e domiciliada na cidade de São Paulo/SP à rua Rua Professor Henrique Neves Lefevre, 645 - Jardim Petrópolis - CEP 04637-001
 * **Bruno Renatto Sugobono Neyra**, brasileiro, casado, hacker, maior, portador da cédula de identidade no 46.708.141-4/SSP-SP e CPF no 349.867.798-50, residente e domiciliado na cidade de Campinas-SP à rua Francisco Andreo Aledo, 255 - Casa 4 - CEP 13084-200
-* y
-* z
+* **Gabriela Nardy de Vasconcellos Leitão**, brasileira, solteira, hacker, maior, portadora da cédula de identidade no 54.219.155-6/SSP-SP e CPF no 055.999.197-75, residente e domiciliada na cidade de Florianópolis/SC, à rua Rua Capitão Romualdo de Barros, 705, casa 13, Saco dos Limões - CEP 88040-600
+* x
 
 **Conselho Fiscal**
 **Titulares:**
-* **Tiago Cardieri**
-* **Diego Cases**
-* **Daniela Silva**
+* **Tiago Duarte Cardieri**, brasileiro, solteiro, hacker, maior, portador da cédula de identidade no 43.929.554-30/SSP-SP e CPF no 230.107.558-30, residente e domiciliado na cidade de São Paulo/SP à Rua Wanderley, 637 - Perdizes - CEP 05011-001
+* x
+* **Daniela Bezerra da Silva**, brasileira, solteira, jornalista, maior, portadora da cédula de identidade no 35.912.238-3/SSP-SP e CPF no 358.180.908-76, residente e domiciliada na cidade de São Paulo-SP, à rua São Florêncio, 1345 - Penha - CEP 03733-020;
 
 **Suplentes:**
+* **Felipe Meyer de Souza**, brasileiro, casado, professor, maior, portador da cédula de identidade no. 3.913.317/SSP-SC e CPF no. 004155149-40, residente e domiciliado na cidade de Florianópolis-SC, à Rua Fulvio Aducci, 616, apto. 2B - Estreito - CEP 88075-000
+* **Diego Casaes**
 * x
-* y
-* z
 
 Todos os Diretores e Conselheiros acima qualificados foram eleitos para completar o mandato de 3 (três) anos, ora em curso, com término previsto para o dia catorze de julho de 2014, e assinaram os respectivos Termos de Posse constantes no Anexo III desta Ata.
 
