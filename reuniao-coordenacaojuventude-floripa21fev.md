@@ -53,6 +53,8 @@ Coordenador: Guilherme -> guipontesfln@gmail.com
 	* Projeto de uma professora da UNIVALI
 	* Retomar as feiras de ciência como forma de articular 'Ciência, Tecnologia' e 'Criatividade'
 * Plataforma de Mapeamento de projetos e grupos ligados a Juventude
+	* [Mapeamento Fortaleza](http://mapeamentofortaleza.org.br/)
+	* [Mapa da Participação](http://www.mapadaparticipacao.org.br/)
 * 1o Prêmio de Florianópolitano de Blogs
 * Publicar o documento que vai orientar o plano da Coordenadoria
 
