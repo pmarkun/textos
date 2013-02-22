@@ -56,3 +56,10 @@ Coordenador: Guilherme -> guipontesfln@gmail.com
 * 1o Prêmio de Florianópolitano de Blogs
 * Publicar o documento que vai orientar o plano da Coordenadoria
 
+## Referências
+
+[LEI Nº 8452/2010 - Conselho Municipal](http://okfnpad.org/juventudefloripa-conselhomunicipal)
+[LEI Nº 7804/2009 - Coordenadoria de Políticas Públicas](http://okfnpad.org/juventudefloripa-coordenadoria)
+[LEI No 8318/2010 - Plano Municipal de Juventude](http://okfnpad.org/juventudefloripa-planomunicipal)
+
+**Por algum motivo não encontro a Lei 8318/2010 no sistema da Câmara Municipal**
