@@ -38,7 +38,7 @@ Para presidir os trabalhos, compuseram a mesa o Presidente, **Claudio Prado**, a
 * **Priscilla Cavalieri Oliveira**, brasileira, solteira, jornalista, maior, portadora da cédula de identidade no 43.760.705-7/SSP-SP e CPF no 368.976.258/84, residente e domiciliada na cidade de São Paulo/SP à rua Rua Professor Henrique Neves Lefevre, 645 - Jardim Petrópolis - CEP 04637-001
 * **Bruno Renatto Sugobono Neyra**, brasileiro, casado, hacker, maior, portador da cédula de identidade no 46.708.141-4/SSP-SP e CPF no 349.867.798-50, residente e domiciliado na cidade de Campinas-SP à rua Francisco Andreo Aledo, 255 - Casa 4 - CEP 13084-200
 * **Gabriela Nardy de Vasconcellos Leitão**, brasileira, solteira, hacker, maior, portadora da cédula de identidade no 54.219.155-6/SSP-SP e CPF no 055.999.197-75, residente e domiciliada na cidade de Florianópolis/SC, à rua Rua Capitão Romualdo de Barros, 705, casa 13, Saco dos Limões - CEP 88040-600
-* x
+* **Júlio Ricardo Boaro Costa**, brasileiro, solteiro, hacker, maior, portador da cédula de identidade no 29.088.603-X/SSP-SP e CPF no 176.952.228-01, residente e domiciliado na cidade de São Paulo/SP à Avenida Ipiranga, 200 - Bloco B Apartamento 2610 - República - CEP 01046-925
 
 **Conselho Fiscal**
 **Titulares:**
