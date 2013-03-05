@@ -85,3 +85,10 @@ Got changed to:
 This was introduced in the Senate and was actually an important change, since otherwise the government would not be allowed to publish data in closed formats such as PDFs. (Not that I would complain much about it.)
 
 And so that's the story. About how we understood that we could write law. That this is no arcane knowledge held only by a few - even if those few are chosen democratically by the people - and that everyone can and should do politics and policies.
+
+
+## References
+* [8 Principles of OpenData](http://www.opengovdata.org/home/8principles)
+* [Bill 219/2003 in the House of Chambers](http://www.camara.gov.br/proposicoesWeb/fichadetramitacao?idProposicao=105237)
+* [Law 12572/2011](http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2011/Lei/L12527.htm)
+* [Report from the Special Commitee](http://www.camara.gov.br/proposicoesWeb/prop_mostrarintegra;jsessionid=432BB3B764E95445C206BF0967BB8BAA.node1?codteor=723610&filename=Tramitacao-PL+219/2003)
