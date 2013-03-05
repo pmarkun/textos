@@ -81,3 +81,87 @@ The process is flawed. Both at a cultural level but also at a legal/bureaucratic
 	* There is a bug in the law in not explicitly stating that e-mail is to be accepted.
 	* There is actually a regulamentation that goes against the law and that is fine!?
 	*	There is a cultural challenge
+
+## Story Framework
+
+Happily lended from Nishant Paper!
+
+**Revolution**
+**Rights**
+**Instant Failure/Success**
+**Crises**
+**Citizenship**
+**Spectacles?**
+
+## Interview - Marco Berlinger
+
+A story about the Anti-globalization (~2000 Italy) and the #Indignados movement (~2011 Spain).
+
+The organizational logic of those movements.
+Why the most recents social movements are incable to last?
+
+Anti-globalization
+Had a really strong movement but...
+
+Indignados
+
+
+Is there a possibility to understand more because the decade that separates the two? They both refeer to a change that takes place.
+
+Decline of traditional colective organizations; Political Parties, Trade Unions, NGOs.
+
+---
+
+In the Anti-globalization they were still there and important. Even if the 'protagonists' were from outside those areas- they still played a big role.
+
+The organizational logic in it was actually new. The technologies appeared as key tool - for communication, organization and the shaping of a new public sphere outside the main stream media.
+
+In the new movements  - like Indignados - you don't see any form of 'colective organization'. The participation was of individuals. The social networks the main tool that allowed to aggregate and fire the mobilization.
+
+Another thing to look into the difficult of sustaining the mobilization (in both areas) is the diversity. The anti-globalization movement started a retorical praise for the diversity as an new way to fight at the global level. But that also what lead to the difficulty to stabilish common agendas.
+
+In Indignados, in the squares, it was like a Babel. It was impossible to create those commons agendas - it has to do with the increase of individualization and the decline of the collective organization. Fragmentation of the individualization, of the people.
+
+Do we have/Can we imagine or draw for those experiences (or other) some new organization fixes for those collective dynamics?
+
+**Fighting Political Rights**
+* Democracy is not working
+* We need to create new ways
+* Rights threatened by neo-liberal policies
+* New rights
+
+**Do you think they failed?**
+You can say they failed. Why they failed at the end? Why they failed in being an lasting actor? To push strategically into changes?
+
+Five stars movement - a movement that won the last election. There is a crise of the political family ideology.
+
+So they failed, but also produced changes in terms of culture. 
+
+**The end?**
+It did ended 'literally'. It ended as a mobilization. Ended as public discourse that was able to shape the public agenda.
+The fact is that you disappear. It does disappear as a 'spectacle'. (Altought we cannot translate the original idea of spectacle in the new dynamics of networks.)
+
+After the 'end' they start as they start to become invisible, they also start to become more descentralized and start to affect politics and policies more directly.
+
+**Common ground**
+
+Being against something is a platform.
+But also, positevelly, there is a systemic critique - that there is a problem with the system itself.
+Claim of autonomy. It's very difficult to impose hierarquical organization on those movements.
+
+And against you can see a growth in this culture between the Anti-globalization and Indignados movements.
+
+While in Anti-globalization there was still a perceivable tension between the old organizational ways and the new ways being applied and tried.
+
+In the Indignados that wasn't even a question. If you're a 'digital native' you recognize that you're always in a space with people different than you, in a space without clear hiearquization.
+
+**Autonomy <-> Individualization**
+
+They are similar. But autonomy can also be collective. 
+There is a 'respect' of the autonomy. You have to respect the autonomy and the diversity.
+
+Are there other organizational logics to look at this condiction that can transform it into something productive?
+
+Indignados without any resource, program, political experince they've succeded in mobilizing thousands of people, changing the frame from which society recognizes itself.
+
+You've changed hugely! In a really small timeframe.
