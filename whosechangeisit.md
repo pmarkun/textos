@@ -153,3 +153,26 @@ They've changed hugely! In a really small timeframe.
 **A question**
 
 Are there other organizational logics to look at this condiction that can transform it into something productive?
+
+
+## Personal Review (for my eyes only)
+
+* (future) Drink a beer
+* Discuss how the knowledge program should look like
+	* How do we fund?
+	* How do we cluster ourselves?
+	* What do we do?
+	* Etc
+* Should we change the subject from change?
+* Drawings about the stories we told and what are the actors of change.
+* Really conceptual discussion on change
+* Dinner at a wonderful Indonesian restaurant (Thanks Nishant!)
+* Throwing paper balls about reflexions on the interview
+* Interview/jibber-jabber on the stories of other person (I've talked with Marco!)
+* Really conceptual and long discussion on the framework proposed by Nishant and it's six axis
+* Dinner with lots of Tapas and Mojito
+* Writing a short story about something random that has to do with change
+* Discussion about how to frame a story and our stories ideas
+* Maria!
+* 111 Presentations
+* 30 hours of flight
