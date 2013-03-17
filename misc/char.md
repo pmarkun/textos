@@ -4,12 +4,12 @@
 * Race: Human
 * Class: Wizard
 * Gender: Male
-* Specialty: Hedge Magician
-* Background:
+* Specialty: 
+* Background: Cartographer
 * Eyes: Dark Brown
 * Hair: Dark Brown
-* Height:
-* Weight: 
+* Height: 6.0feet (~1.82)
+* Weight: 175 lbs (~80kg)
 
 ## Abilities
 * Srt *8+1* 9 (-1)
@@ -20,11 +20,13 @@
 * Cha *9+1* 10 (0)
 
 ## Attributes
-* Speed:
-* Hit Dice:
-* Initiative:
-* Vision:
+* Speed: 30 feet
+* Hit Dice: 1d6
+* Initiative: +3
+* Vision: 
 * Size: Medium
+* Hit Points: 7
+* AC: 13
 
 ## Languages
 Common
@@ -32,13 +34,14 @@ Common
 ## Attacks
 **Weapon**
 
-* Dagger
-* Light Crossbow
+* Dagger (+3) 1d4+3
+* Light Crossbow (+3) 1d8+3
 
 **Spell**
 
-* Magic Missle
-* Thunderwave
+* Magic Missle (-) 1d4+2
+* Thunderwave (dex save/2) 2d8
+* Ray of Frost (+5) 1d10
 
 ## Class Features
 * Tradition of Wizardry (Scholarly Wizardry)
@@ -49,19 +52,29 @@ Common
 * +1 Str, Dex, Con, Wis, Cha
 
 ## Skills
-* Disable Devices
-* Escape Artist
-* Knowledge (Arcana)
+* Profession (Cartography)
+* Heal
+* Knowledge (Science)
 * Knowledge (Dungeoning)
+* Knowledge (Arcana)
 
 ## Feats
 * Find Familiar (Owl)
 
+## Owl - Asimov
+* Tiny Fey
+* AC: 10 
+* Hit Points: (2d8)
+* Speed: 5ft; fly 25ft;
+* Senses: darkvision 40ft;
+* Str: 2 (-4) Dex 12 (+1) Con 6 (-2)
+* Int: 2 (-4) Wis 10 (+0) Cha 2 (-4)
+
 ## Spellbook
 **Cantrips**
-* Minor Illusion
 * Light
-* Read Magic
+* Mage Hand
+* Mage Armor
 * Ray of Frost
 
 **1st Level**
@@ -69,9 +82,11 @@ Common
 * Thunderwave
 * Comprehend Languages
 * Detect Magic	
+
 ## Spells Ready
-* Magic Missile (x2)
+* Magic Missile
 * Thunderwave
+* Detec Magic
 
 ## Equipment
 * 1x Light crossbow (6lbs) 25gp
@@ -80,8 +95,7 @@ Common
 * Adventurer's kit (38lbs) 9gp
 * Spellbook (3lbs) 75gp
 * Ink (-) 10gp
-* Robes (4lbs) 1gp
 * Ink pen (-) 2cp
-* Thieves Tools (1lbs) 25gp
+* Robes (4lbs) 1gp
 
-Total: (58lbs) 149gp / 2cp
+Total: 
