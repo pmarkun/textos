@@ -82,7 +82,7 @@ O resultado vai ser algo parecido com isso:
 
 Buscando essas perguntas no dicionário, vemos que elas são sobre a presença de Ensino Religioso nas Escolas.
 
-Para obter a resposta de uma questão específica você pode utilizar:
+Para obter a resposta de uma questão específica você pode utilizar o próprio summary:
 
 	summary(provabrasil.diretor$TX_RESP_Q030)
 
@@ -90,6 +90,15 @@ O resultado vai ser algo parecido com isso:
 
 	.     *     A     B     C     D     E     F     G     H     I
 	1622   470  8250   115  3024  2092 10351 22862  4606   737  2093
+
+
+Mas o ideal é você utilizar a função `aggregate`, que já te retorna uma objeto `list` facilitando a manipulação posterior (os tipos `matrix`, `data.frame`, `list` são parte do charme e da confusão no R)
+
+	aggregate(provabrasil.diretor$TX_RESP_Q030, by=list(Resposta = provabrasil.diretor$TX_RESP_Q030), FUN=length)
+
+O resultado prático é bem parecido com o `summary`. Note que o primeiro parametro é o campo, o segundo `by` é o elemento e o terceiro `FUN` é a função que vamos usar para agrupar (existem outros como `mean` e `mediam` que só fazem sentido com valores numéricos).
+
+Olhando no nosso dicionário de dados:
 
 * A) O modelo encaminhado pela secretaria da educação.
 * B) Foi elaborado por mim. 
