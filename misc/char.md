@@ -1,4 +1,8 @@
 # Joseph Knecht - Wizard 1st Lvl
+
+## Background
+Filho de um casal de fazendeiros em uma vila localizada entre Silverymoon e Luskan, seus pais foram mortos quando ele tinha ~14 anos durante um ataque junto com boa parte da vila. Na época haviam alguns magos de Silverymoon nas redondezas que alegadamente não podiam fazer nada para intervir por questões políticas. Depois disso foi morar com um tio em Silverymoon trabalhando como assistente de Cartografo. Lá prestando serviços ocasionais de cartografia para a [Casa dos Mapas](http://dustin.wikidot.com/silverymoon#map-house) sua aptidão para magia foi descoberta pelo mago-professor Jules Verne que o trouxe para estudar no [Lady's College](http://dustin.wikidot.com/silverymoon#ladys-college) com uma bolsa do governo de Silverymoon. Recentemente foi chamado diante do board e sofreu uma sanção disciplinar por usar magia de forma indevida ao tenta ensinar em praça pública os procedimentos para a execução de um Thunderwave que por sorte só derrubou meia duzia de barracas e deixou alguns vendedores surdos por um tempo. Como punição... fica a cargo do mestre :)
+
 ## Description
 * Align: Chaotic Good
 * Race: Human
@@ -54,7 +58,7 @@ Common
 ## Skills
 * Profession (Cartography)
 * Heal
-* Knowledge (Science)
+* Knowledge (Nature) (geography?)
 * Knowledge (Dungeoning)
 * Knowledge (Arcana)
 
