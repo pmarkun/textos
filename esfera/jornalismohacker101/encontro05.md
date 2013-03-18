@@ -157,3 +157,4 @@ Para saber mais de R e outras coisas.
 [Quick-R](http://www.statmethods.net/)
 [An Introduction to R](http://cran.r-project.org/doc/manuals/r-release/R-intro.html)
 [Curso de R em PT-BR](http://www.leg.ufpr.br/Rpira/Rpira/)
+[Post sobre Data Types](http://rforpublichealth.blogspot.com.br/2012/11/data-types-part-1-ways-to-store.html)
