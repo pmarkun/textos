@@ -28,16 +28,21 @@ Recentemente foi chamado diante do board e sofreu uma sanção disciplinar por u
 * Cha *9+1* 10 (0)
 
 ## Attributes
+* Lvl 2
 * Speed: 30 feet
 * Hit Dice: 1d6
 * Initiative: +3
 * Vision: 
 * Size: Medium
-* Hit Points: 7
+* Hit Points: 12
 * AC: 13
 
 ## Languages
 Common
+Dwarven
+Elven
+Orc
+Draconic
 
 ## Attacks
 **Weapon**
@@ -54,6 +59,8 @@ Common
 ## Class Features
 * Tradition of Wizardry (Scholarly Wizardry)
 * Wizardly Knowledge (Arcana)
+	Adv on rolls of Magic Lore
+* Arcane Recovery (Recover one 1st lvl spell during short rest)
 
 ## Racial Traits
 * +2 Int
@@ -69,32 +76,82 @@ Common
 ## Feats
 * Find Familiar (Owl)
 
-## Owl - Asimov
+## Owl - Asimov (Lvl 2)
 * Tiny Fey
-* AC: 10 
-* Hit Points: (2d8)
+* AC: 12
+* Hit Points: 8
 * Speed: 5ft; fly 25ft;
 * Senses: darkvision 40ft;
 * Str: 2 (-4) Dex 12 (+1) Con 6 (-2)
 * Int: 2 (-4) Wis 10 (+0) Cha 2 (-4)
+* Telepathy Range: 100 feet
+
+## Spells
+* Spellcasting bonus (+1)
+* Spellsaves 15 (+5)
+* Spells per day (2)
+* Spellslots 2+1 (3)
 
 ## Spellbook
 **Cantrips**
 * Light
+Casting time: 1 action
+Duration: 1 hour
+Range: 20 feet bright + 20 feet dim light
+
 * Mage Hand
+Casting time: 1 action
+Duration: 1 minute (~10 rounds)
+Range: 50 feet
+Effect: Moves, open, push up until 10 pounds
+
 * Mage Armor
+Casting time: 1 action
+Duration: 1 hour
+Effect: AC 12+Dex
+
 * Ray of Frost
+Casting time: 1 action
+Range: 100 feet
+Effect: 1d8 cold damage + 10feet speed reduction (Dex Save)
 
 **1st Level**
 * Magic Missile
-* Thunderwave
-* Comprehend Languages
-* Detect Magic	
+Casting time: 1 action
+Range: 100 feet
+Effect: 3 darts; 1d4+2 on hit each (3d4+6)
 
+* Thunderwave
+Casting time: 1 action
+Range: 15 feet (cone)
+Effect: 3d8 thunder damages + pushed 15 feet (halves with Dex Save) (also pushes objects 15 feet upto 50 pounds)
+
+* Comprehend Languages
+Casting time: 1 action
+Duration: 1 hour
+Effect: You can understand any language!
+Ritual: 10 minutes + salt;earth
+
+* Detect Magic	
+Casting time: 1 action
+Duration: 1 minute (~10 rounds)
+Range: 25 feet
+Effect: Identifies presence of magic and school of magic (if any)
+
+* Sleep
+Casting time: 1 action
+Duration: 1 minute (~10 rounds)
+Range: 100 feet
+Effect: 5d8 hit points fall asleep
+
+* Gust of Wind
+Casting time: 1 action
+Range: 50 feet 
+Effect: 2d10 + knock prone anyone in 10 feet radius (Dex Save halves)
 ## Spells Ready
 * Magic Missile
 * Thunderwave
-* Detec Magic
+* Detect Magic
 
 ## Equipment
 * 1x Light crossbow (6lbs) 25gp
@@ -107,3 +164,26 @@ Common
 * Robes (4lbs) 1gp
 
 Total: 
+
+
+----
+
+## Other important info (movens nd stuff)
+* Dodge (action)
++4 AC
+* Ready an action (action)
+Selects a trigger, acts immediatly after that
+Initative changes so you are just ahead of target
+* Knocking a Creature Out
+The player can choose to reduce the creature to 0hps
+* Short rest (~10 minutes)
+With healer's kit you can use a Hit Die and recover dice+con hp.
+* Long rest (8 hours)
+Recover all hp and spells (only one in 24hs)
+
+Effects:
+Prone (via Gust of Wind)
+Only movement is to crawl or standu
+-2 to Attack
+Melee attacks always have advantage
+Ranged attacks (+10 feet) have disadvantage
