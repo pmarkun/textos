@@ -138,6 +138,7 @@ Uma API (Application Programing Interface) é um recurso utilizado por sites e p
 * [SICAF](http://api.comprasnet.gov.br/sicaf/doc/)
 * [WorldBank](http://data.worldbank.org/developers/api-overview)
 
+
 O governo federal através da [INDA - Infraestrutura Nacional de Dados Abertos](http://wiki.gtinda.ibge.gov.br/) vem criando uma série de normatizações e APIs para diferentes bancos de dados.
 
 **Recomendamos que o BNDES crie uma API para o acesso automatizado aos seus dados - começando pelos dados de financiamento.**
@@ -176,7 +177,7 @@ A lei é clara que o direito à informação vale para todos e independe de moti
 
 **Recomendamos desenvolver um proceso interno especifico para lidar com casos de respostas insuficientes e/ou em formatos errados. É preciso um trabalho constante no processo de coleta, armazenamento e disponibilização dos dados para que tenhamos um acesso à informação e uma transparência plenos.**
 
-## Recomendações finais
+## Recomendações adicionais
 
 Após análisar a sessão [BNDES Transparente](http://www.bndes.gov.br/SiteBNDES/bndes/bndes_pt/Institucional/BNDES_Transparente/) do site do BNDES, avaliamos que embora tenha existido uma série de melhorias na oferta de dados nos últimos anos, esse trabalho foi feito de maneira inconsistênte e a qualidade dos dados divulgados é bastante variável.
 
@@ -185,3 +186,11 @@ Após análisar a sessão [BNDES Transparente](http://www.bndes.gov.br/SiteBNDES
 Um problema recorrente enfrentado pelos órgãos públicos na tentativa de modernizar seus processos de transparência é que os modelos tradicionais de desenvolvimento de software utilizados pelos orgãos públicos não dão conta de inovar e acabam gerando soluções incompátiveis com as atuais necessidades da rede.
 
 **Recomendamos a criação ou promoção de uma equipe interna responsável pela implementação tecnica e cultural dessa nova política de transparência. Essa equipe deve ter autônomia tecnica para desenvolver ou contratar o desenvolvimento de tecnologias para auxiliar no processo de disponibilização de informação. Esta equipe deve ser pensada como uma solução de curto-médio prazo com o horizonte de que no longo prazo as práticas culturais e tecnologicas envolvidas sejam difundidas por todo o BNDES.**
+
+Existe uma outra dimensão no processo de transparência pública que é largamente ignorado por orgãos públicos e pouco ou nada se viu nesse sentido na análisa feita ao portal BNDES Transparente. Além de garantir acesso e disponibilidade as informações faz parte de um projeto de transparência de sucesso a qualificação do uso desses dados. Promover atividades e campanhas que aproximem a sociedade cívil dos dados, colocando-os em uma posição de protagonismo e permitindo troca de informação de maneira mais informal entre o servidor público e o cidadão aumenta a eficiência e cria novas possibilidades de inovação para o cidadão e para o poder público.
+
+**Recomendamos que o documento sobre a política de transparência do BNDES inclua diretrizes sobre a realização de eventos e campanhas para a promoção e discussão dos dados disponíveis no portal. Esses eventos podem tomar diferentes formatos, dependendo do público alvo e conjunto de dados específicos, mas algumas formas já testadas podem ser utilizadas como:**
+
+* Transparência Hackdays, eventos mão na massa que reunem desenvolvedores e outros atores da sociedade cívil para desenvolver soluções em cima dos dados apresentados;
+* Papo com Dados, mesas de discussão reunindo servidores públicos e organizações sociais para discutir conceitualmente e levantar pontos importantes sobre os dados disponibilizados;
+* Concursos de Aplicativos, concursos com premiação que convidem os desenvolvedores e movimentos sociais a apresentarem soluções inovadoras utilizando determinados conjuntos de dados.
