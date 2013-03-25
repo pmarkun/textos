@@ -124,7 +124,8 @@ Os formatos escolhidos para publicação - XLS e PDF - são ambos formatos propr
 
 8. *Livres de licenças.*
 Nenhuma licença esta especificada. Existe um © no pé da página o que implicaria que essa informação - caso não fosse pública - estaria protegida e com todos os direitos reservados.
-Sugerimos a explicitação de que os dados são públicos e portanto podem ser utilizados por quaisquer pessoas para qualquer fim.
+
+**Sugerimos a explicitação de que os dados são de domínio público e portanto podem ser utilizados por quaisquer pessoas para qualquer fim (inclusive comerciais e derivativos) sem a necessidade de autorização específica.**
 
 
 ## webservice/API
@@ -132,14 +133,55 @@ Sugerimos a explicitação de que os dados são públicos e portanto podem ser u
 Uma API (Application Programing Interface) é um recurso utilizado por sites e portais para disponibilizar seus dados de maneira estruturada para que se possa construir analíses e aplicações em cima delas.
 É a forma como sites como Twitter, Facebook e Foursquare disponibilizam seus dados para que sejam construidos centenas de aplicativos que melhoram ou fornecem meios alternativos de visualizar aquelas informações.
 
-É também a maneira utilizada por diferentes governos.
+É também a maneira utilizada por diferentes governos e bancos.
 
 * [SICAF](http://api.comprasnet.gov.br/sicaf/doc/)
+* [WorldBank](http://data.worldbank.org/developers/api-overview)
 
-O governo federal através da INDA vem criando uma série de APIs para diferentes bancos de dados.
+O governo federal através da [INDA - Infraestrutura Nacional de Dados Abertos](http://wiki.gtinda.ibge.gov.br/) vem criando uma série de normatizações e APIs para diferentes bancos de dados.
 
-Sugerimos que o BNDES crie uma API para o acesso automatizado aos seus dados - começando pelos dados de financiamento.
+**Recomendamos que o BNDES crie uma API para o acesso automatizado aos seus dados - começando pelos dados de financiamento.**
 
 Essa API deve retornar dados em formatos abertos e estruturados como JSON, XML e HTML (para visualização).
 
 Opcionalmente pode-se estudar também a implementação de um modelo semântico usando a tecnologia do RDF.
+
+
+## eSIC - Sistema de Atendimento ao Cidadão
+
+A página do eSIC do BDNES encaminha o usuário para o sistema do Governo Federal, produzido pela CGU - Controladoria Geral da União.
+
+Ainda que o uso desse sistema seja satisfatório, a impossibilidade de acompanhar os pedidos e respostas feitas por outras pessoas diminui a transparência e aumenta a carga de retrabalho dos funcionários do BNDES que eventualmente respondem a mesma questão repetidas vezes.
+
+**Recomendamos a utilização de um canal adicional de comunicação que deixe público o registro de pedidos e respostas anteriores (excluindo-se os dados pessoais dos requerentes).**
+
+Ainda assim o grande problema enfrentado pelos atuais sistemas de acesso à informação acontece menos no plano técnico do sistema e mais na falta de capacitação e compreensão dos servidores públicos sobre o que o propósito e a importância da Lei de Acesso à informação.
+
+É essencial que exista um processo de diálogo e discussão com todos os servidores envolvidos no procesos de gerar, processar, armazenar e distribuir informações em especial aqueles que se encontram na ponta do processo, dialogando diretamente com o cidadão.
+
+Algumas das questões-chave que são geralmente negligênciada pelos servidores públicos por desconhecimento e/ou falta de cultura incluem:
+
+**Formatos errados**
+
+É preciso prestar atenção não apenas em qual informação foi solicitada, mas também em que formato foi feita essa solicitação - usos diferentes necessitam de formatos diferentes e normalmente o formato disponibilizado através do portal é insuficiente para usos mais avançados (ver sessão sobre princípios dos dados abertos).
+
+**Dados insuficientes**
+
+É preciso prestar atenção no gráu de detalhamento e pormenores do pedido, via de regra o servidor deve assumir que a informação já disponível não foi suficiente por algum motivo - e ainda que seja sempre importante e útil apontar os links do portal onde a informação específica se encontra (e vale prestar atenção sobre o grau de dificuldade que o próprio servidor teve ao buscar essa informação), tentar estar atento a tudo aquilo que consta no pedido e que por uma razão ou outra não se encontra no site.
+
+**Avaliação do motivo**
+
+O servidor não deve julgar ou avaliar a importância daquele pedido ou requerente. Nenhum pedido deve ser tratado de forma mais importante que outro - por ter vindo de um jornalista ou pesquisador, por exemplo.
+A lei é clara que o direito à informação vale para todos e independe de motivo específico.
+
+**Recomendamos desenvolver um proceso interno especifico para lidar com casos de respostas insuficientes e/ou em formatos errados. É preciso um trabalho constante no processo de coleta, armazenamento e disponibilização dos dados para que tenhamos um acesso à informação e uma transparência plenos.**
+
+## Recomendações finais
+
+Após análisar a sessão [BNDES Transparente](http://www.bndes.gov.br/SiteBNDES/bndes/bndes_pt/Institucional/BNDES_Transparente/) do site do BNDES, avaliamos que embora tenha existido uma série de melhorias na oferta de dados nos últimos anos, esse trabalho foi feito de maneira inconsistênte e a qualidade dos dados divulgados é bastante variável.
+
+**Recomendamos a criação de uma política de Dados Abertos, um documento que norteie tecnica e filosoficamente as ações de transparência do portal, atualizando-as para a nova maneira de pensar o acesso à informação na sociedade da informação incorporando nesse documento os princípios de dados abertos e a dimensão do uso de dados e informações por diferentes grupos da sociedade (cidadãos, desenvolvedores, especialistas e governo). Esse documento também deve servir como norte para a equipe jurídica do BNDES, cujo trabalho principal deve passar de -encontrar motivos para barrar a transparência- para -encontrar caminhos para permitir a livre publicação e circulação de conhecimento-**
+
+Um problema recorrente enfrentado pelos órgãos públicos na tentativa de modernizar seus processos de transparência é que os modelos tradicionais de desenvolvimento de software utilizados pelos orgãos públicos não dão conta de inovar e acabam gerando soluções incompátiveis com as atuais necessidades da rede.
+
+**Recomendamos a criação ou promoção de uma equipe interna responsável pela implementação tecnica e cultural dessa nova política de transparência. Essa equipe deve ter autônomia tecnica para desenvolver ou contratar o desenvolvimento de tecnologias para auxiliar no processo de disponibilização de informação. Esta equipe deve ser pensada como uma solução de curto-médio prazo com o horizonte de que no longo prazo as práticas culturais e tecnologicas envolvidas sejam difundidas por todo o BNDES.**
