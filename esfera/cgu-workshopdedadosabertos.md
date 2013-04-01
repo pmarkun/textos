@@ -2,12 +2,17 @@
 
 ## O que é?
 
-O Workshop de Dados Abertos é parte das ações previstas no [plano brasileiro](http://www.cgu.gov.br/PrevencaodaCorrupcao/CompromissosInternacionais/GovernoAberto/documentos/arquivos/Balanco-Plano-Acao-Brasil-OGP-outubro2012.pdf) da **Parceria pelo Governo Aberto** (OGP) e é realizado pelo Laboratório de Cultura Digital em parceria com a CGU através do convênio com a UNESCO (processo no 00190.004515/2010-79).
+O Workshop de Dados Abertos é parte das ações previstas no [plano brasileiro](http://www.cgu.gov.br/PrevencaodaCorrupcao/CompromissosInternacionais/GovernoAberto/documentos/arquivos/Balanco-Plano-Acao-Brasil-OGP-outubro2012.pdf) da **Parceria pelo Governo Aberto** (OGP) e é realizado pela Transparência Hacker através do Laboratório de Cultura Digital em parceria com a CGU através de um convênio com a UNESCO (processo no 00190.004515/2010-79).
 
 Os workshops integram um plano estratégico de promover a cultura dos dados abertos e a sua reutilização e remix pela sociedade.
 
 ## Público alvo
 A divulgação é feita pela Internet para atores locais como estudantes, acadêmicos, ativistas, jornalistas, gestores e servidores públicos, legisladores, além de comunidades já sensibilizadas com o tema transparência pública e novas tecnologias, desenvolvedores e profissionais da rede preparados para construir aplicativos baseados em open data.
+
+## Quem somos?
+O **Laboratório de Cultura Digital** é uma organização sem fins lucrátivos que trabalha utilizando o digital para fomentar a cultura de autônomia e participação no cidadão.
+
+A **Transparência Hacker** é uma comunidade de prática surgiu no final de 2009 formada por desenvolvedores, comunicadores, pesquisadores, ativistas, gestores públicos e quem mais quiser. Mais informações [aqui](http://www.canalibase.org.br/somos-a-transparencia-hacker/).
 
 ## Formato
 
