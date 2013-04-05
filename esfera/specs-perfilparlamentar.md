@@ -6,7 +6,7 @@ App que visualiza rapidamente o perfil de atuação de um determinado parlamenta
 * Biografia do site da Câmara
 * Comissões da qual participa o Deputado
 ** Agenda das comissões
-* Mostra os 10 temas mais recorrentes através da analíse de projetos apresentados (e relatados?)
+* Mostra os 10 temas mais recorrentes através da análise de projetos apresentados (e relatados?)
 * Mostrar os 10 últimos projetos apresentados
 * Mostra os últimos 10 votos em plenário
 ** Visualização do radar parlamentar?
