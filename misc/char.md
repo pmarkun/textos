@@ -1,4 +1,4 @@
-# Joseph Knecht - Wizard 1st Lvl
+# Joseph Knecht - Wizard 3st Lvl
 
 ## Background
 Filho de um casal de fazendeiros em uma vila localizada entre Silverymoon e Luskan, seus pais foram mortos quando ele tinha ~14 anos durante um ataque junto com boa parte da vila. Na época haviam alguns magos de Silverymoon nas redondezas que alegadamente não podiam fazer nada para intervir por questões políticas.
@@ -28,13 +28,13 @@ Recentemente foi chamado diante do board e sofreu uma sanção disciplinar por u
 * Cha *9+1* 10 (0)
 
 ## Attributes
-* Lvl 2
+* Lvl 3
 * Speed: 30 feet
 * Hit Dice: 1d6
 * Initiative: +3
 * Vision: 
 * Size: Medium
-* Hit Points: 12
+* Hit Points: 18
 * AC: 13
 
 ## Languages
@@ -49,24 +49,25 @@ Draconic
 
 * Dagger (+3) 1d4+3
 * Light Crossbow (+3) 1d8+3
+* Light Crossbow (+3) 1d8+3
 
 **Spell**
 
-* Magic Missle (-) 1d4+2
-* Thunderwave (dex save/2) 2d8
-* Ray of Frost (+5) 1d10
+* Magic Missle (-) 3d4+6
+* Thunderwave (dex save/2) 3d8
+* Shocking Grasp (+4) 1d10
 
 ## Class Features
 * Tradition of Wizardry (Scholarly Wizardry)
 * Wizardly Knowledge (Arcana)
 	Adv on rolls of Magic Lore
-* Arcane Recovery (Recover one 1st lvl spell during short rest)
+* Arcane Recovery (2) (Recover two 1st/2nd lvl spell during short rest)
 
 ## Racial Traits
 * +2 Int
 * +1 Str, Dex, Con, Wis, Cha
 
-## Skills
+## Skills (Skill die d6)
 * Profession (Cartography)
 * Heal
 * Knowledge (Nature) (geography?)
@@ -76,10 +77,10 @@ Draconic
 ## Feats
 * Find Familiar (Owl)
 
-## Owl - Asimov (Lvl 2)
+## Owl - Asimov (Lvl 3)
 * Tiny Fey
 * AC: 12
-* Hit Points: 8
+* Hit Points: 10
 * Speed: 5ft; fly 25ft;
 * Senses: darkvision 40ft;
 * Str: 2 (-4) Dex 12 (+1) Con 6 (-2)
@@ -87,10 +88,10 @@ Draconic
 * Telepathy Range: 100 feet
 
 ## Spells
-* Spellcasting bonus (+1)
-* Spellsaves 15 (+5)
-* Spells per day (2)
-* Spellslots 2+1 (3)
+* Spellcasting bonus (+2)
+* Spellsaves 16 (+2)
+* Spells per day (4 1st / 2nd)
+* Spellslots (5 1st / 3 2nd)
 
 ## Spellbook
 **Cantrips**
@@ -110,21 +111,23 @@ Casting time: 1 action
 Duration: 1 hour
 Effect: AC 12+Dex
 
-* Ray of Frost
+* Shocking Grasp
 Casting time: 1 action
-Range: 100 feet
-Effect: 1d8 cold damage + 10feet speed reduction (Dex Save)
+Range: Touch
+Effect: 1d8 lightning damage + can't take reactions (Dex Save)
 
 **1st Level**
 * Magic Missile
 Casting time: 1 action
 Range: 100 feet
 Effect: 3 darts; 1d4+2 on hit each (3d4+6)
++lvl: 1 one more dart (1d4+2) per lvl
 
 * Thunderwave
 Casting time: 1 action
 Range: 15 feet (cone)
 Effect: 3d8 thunder damages + pushed 15 feet (halves with Dex Save) (also pushes objects 15 feet upto 50 pounds)
++lvl: 1d8 + 5feet per lvl
 
 * Comprehend Languages
 Casting time: 1 action
@@ -143,16 +146,37 @@ Casting time: 1 action
 Duration: 1 minute (~10 rounds)
 Range: 100 feet
 Effect: 5d8 hit points fall asleep
++lvl: 2d8 per lvl
 
 * Gust of Wind
 Casting time: 1 action
 Range: 50 feet 
 Effect: 2d10 + knock prone anyone in 10 feet radius (Dex Save halves)
-## Spells Ready
-* Magic Missile
-* Thunderwave
-* Detect Magic
++lvl: 1d10 per lvl
 
+2nd
+* Phantasmal Force
+Casting time: 1 action
+Duration: 10minutes (~100 rounds)
+Range: 50 feet
+Effect: Illusions up to 500 cubic feet. Affects a single target. Wisdom Check (take as action) can cancel effects. Phantom damage (1d6 per turn) if applicable.
+
+* Invisibility
+Casting time: 1 action
+Duration: 1 hour
+Effects: Become invisible until attack/act.
+
+## Spells Ready
+* 1st
+	* Magic Missile
+	* Thunderwave
+	* Detect Magic
+	* Sleep
+  * Gust of Wind
+* 2nd
+	* 
+	* 
+	* 
 ## Equipment
 * 1x Light crossbow (6lbs) 25gp
 * 2x 10 Bolts (6lbs) 2gp
@@ -169,6 +193,8 @@ Total:
 ----
 
 ## Other important info (movens nd stuff)
+* Stealth
+Dex Check (gives advantage)
 * Dodge (action)
 +4 AC
 * Ready an action (action)
@@ -183,7 +209,7 @@ Recover all hp and spells (only one in 24hs)
 
 Effects:
 Prone (via Gust of Wind)
-Only movement is to crawl or standu
+Only movement is to crawl or standup
 -2 to Attack
 Melee attacks always have advantage
 Ranged attacks (+10 feet) have disadvantage
