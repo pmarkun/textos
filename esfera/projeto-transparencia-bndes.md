@@ -136,6 +136,7 @@ Uma API (Application Programing Interface) é um recurso utilizado por sites e p
 É também a maneira utilizada por diferentes governos e bancos.
 
 * [SICAF](http://api.comprasnet.gov.br/sicaf/doc/)
+* [SICONV](http://api.convenios.gov.br/siconv/doc/)
 * [WorldBank](http://data.worldbank.org/developers/api-overview)
 
 
