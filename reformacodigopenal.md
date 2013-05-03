@@ -1,6 +1,6 @@
 # PLS 236/2012 - Reforma do Código Penal
 
-[Relatório do PLS 236/2012]()
+[Relatório do PLS 236/2012](http://issuu.com/pmarkun/docs/relat_rio_pls_236_2012#download)
 
 Uma leitura cidadã (aka cagação de regra) do Código Penal.
 
@@ -32,3 +32,4 @@ Refatorar o código, outro empréstimo das práticas de desenvolvimento de softw
 
 
 ## Crimes contra o patrimônio imaterial
+
