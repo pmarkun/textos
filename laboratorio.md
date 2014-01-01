@@ -51,7 +51,7 @@ Use a ferramenta e CSVKit e outras ferramentas livres para trabalhar e filtrar m
 Crie visualizações de dados com a linguagem estatística R. Aprenda a escolher o melhor tipo de gráfico para cada história.
 
 * Git e Escrita Colaborativa (4 horas - 1 dia)
-Aprenda a usar o git para escrever matérias e outros textos de maneira colaborativa e distribuída.
+Aprenda a usar o git para escrever matérias e outros textos de maneira colaborativa e distribuída. Inclui markdown.
 
 * Multimídia com Software Livre (8 horas - 2 semanas)
 Inkscape, GIMP, Audacity, KDEnLive - aprenda a usar programas livres para editar arquivos multimídia.
