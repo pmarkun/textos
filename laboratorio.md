@@ -20,6 +20,23 @@ Espaço de formação em tecnologia e política.
 Total - R$10500
 
 ## Cursos
+
+Os cursos são pensados para turmas de no máximo 15 pessoas - sendo que a turma abre com um mínimo de 9 (60%).
+
+**Custo p/ Alunos**
+* Cursos de 4 horas (2 encontros) -> r$102
+* Cursos de 8 horas (4 encontros) -> r$204
+* Cursos de 24 horas (12 encontros) -> r$612
+
+**Remuneração p/ Professores**
+* Cursos de 4 horas (2 encontros) -> r$400
+* Cursos de 8 horas (4 encontros) -> r$800
+* Cursos de 24 horas (12 encontros) -> r$2400
+
+Por padrão os encontros duram 2 horas cada e o custo/hora por aluno esta calculado em r$25.50.
+
+A hora/aula do professor esta calculada em r$100.
+
 ### Eixo Tecnologia
 * Introdução ao Terminal (8 horas - 2 semanas)
 Desvende a tela preta, aprenda a usar o Terminal e seus comandos. Pré-requisito para a maioria das outras oficinas.
