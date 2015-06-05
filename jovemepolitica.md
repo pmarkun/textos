@@ -2,6 +2,13 @@
 
 Uma série de oficinas in(ter)dependentes para provocar reflexão politica em jovens de 16~24 anos.
 
+Estrutura:
+Tagline -> Uma frase explicativa sobre a questão politica que queremos explicitar - sem necessariamente entrar na estrutura politica que trabalha com essa questão.
+
+Provocações -> Questões de fundo sobre a questão politica que não passam - necessariamente - pela estrutura politica.
+
+Saberes politicos minimos -> As estruturas politicas e seus desdobramentos que - idealmente - seriam passadas na oficina. Apesar de 'minimos' esses conteudos não necessariamente precisam ser passados concretamente - as 'respostas certas' são menos importantes aqui do que entender o processo. Ex: Não precisamos passar uma tabelinha com todas as comissões, mas explicar que existem comissões - que são grupos tematicos para discutir projetos de lei é importante.
+
 ## Executivo
 
 Tagline: Atuando na cidade e no entorno
