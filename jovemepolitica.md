@@ -40,3 +40,11 @@ Saberes politicos minimos:
 * Os diferentes tribunais.
 * As instâncias recursivas
 * Como podemos atuar
+
+## Politica fora da Caixa
+
+Tagline: E se a gente fosse reinventar a politica?
+
+Provocações:
+* O que esta errado com a politica hoje?
+* Que outras formas de se organizar e resolver problemas nós temos?
