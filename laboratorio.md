@@ -44,6 +44,9 @@ Desvende a tela preta, aprenda a usar o Terminal e seus comandos. Pré-requisito
 * Programação para Jornalistas (24 horas - 6 semanas)
 Programação com foco em mão na massa, aprenda a escrever pequenos programas para automatizar tarefas e raspar dados de sites.
 
+* Criptografia e segurança para Jornalistas e Ativistas (24 horas - 6 semanas)
+Instalação e manuseio de tecnologias para navegação anônima, comunicação segura e criptografia. PGP, Tor, Jabber+OTR e afins.
+
 * CSVKit e manipulação de planilhas (8 horas - 2 semanas)
 Use a ferramenta e CSVKit e outras ferramentas livres para trabalhar e filtrar mais rapidamente grandes bases de dados.
 
