@@ -6,8 +6,10 @@ Espaço de formação em tecnologia e política.
 * Sala p/ ~15 pessoas
 	* Projetor + Tela
 	* Flipchart
+	* Post-Its
 * Galpão
-	*	Mesas de trabalho c/ pontos de energia
+	* Mesas de trabalho c/ pontos de energia
+	* Se possível pontos de rede (cabos) também
 
 ## Custos (mês)
 * Aluguel - r$3000
